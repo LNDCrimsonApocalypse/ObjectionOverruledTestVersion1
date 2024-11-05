@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HOME.unity
+    guid: 9120f538659fa6c449409d2318f1a33d
+  - enabled: 1
+    path: Assets/Scenes/TutorialScreen.unity
+    guid: 289b1e62f007e9a47bceed1b941aa7a1
+  - enabled: 1
+    path: Assets/Scenes/AboutScreen.unity
+    guid: 2f2e52d73f901e94396fcf3cb1f1125b
+  - enabled: 1
+    path: Assets/Scenes/SettingsScreen.unity
+    guid: 387f02fd8dfe53f41a79de60825fc881
+  - enabled: 1
     path: Assets/Scenes/CaseReview-RoleSelectionScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
