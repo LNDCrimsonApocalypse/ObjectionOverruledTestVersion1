@@ -431,7 +431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740015390}
+      - m_Target: {fileID: 1049072204}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: BtnOption
         m_Mode: 1
@@ -588,9 +588,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740015390}
+      - m_Target: {fileID: 1049072200}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: BtnOption
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740015390}
+      - m_Target: {fileID: 1673248853}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: BtnTutorial
         m_Mode: 1
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740015390}
+      - m_Target: {fileID: 1858738613}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: BtnQuit
         m_Mode: 1
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740015390}
+      - m_Target: {fileID: 2123740726}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: BtnAbout
         m_Mode: 1
