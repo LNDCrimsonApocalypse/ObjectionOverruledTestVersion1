@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9258399f84c8e8f438b68ab9b9b9d409
+guid: ac301e288143bad4fbda486a9abc36f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6745322403999134989
-    second: RoleSelection_BG_0
+      213: -4887785571611321544
+    second: StartGame_Btn_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RoleSelection_BG_0
+      name: StartGame_Btn_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6912
-        height: 3456
+        width: 126
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d053ad9fcf23c9d50800000000000000
-      internalID: 6745322403999134989
+      spriteID: 83bd3d15be81b2cb0800000000000000
+      internalID: -4887785571611321544
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RoleSelection_BG_0: 6745322403999134989
+      StartGame_Btn_0: -4887785571611321544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

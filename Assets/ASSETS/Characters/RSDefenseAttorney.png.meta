@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RSDefenseAttorney_0: -7870236414194414438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
