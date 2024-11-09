@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
     // Start is called before the first frame update
     public void BtnStart()
     {
-        SceneManager.LoadScene("CaseReview-RoleSelectionScreen");
+        SceneManager.LoadScene("CaseReview_RoleSelectionScreen");
     }
 
     /*    public void BtnRestart()
