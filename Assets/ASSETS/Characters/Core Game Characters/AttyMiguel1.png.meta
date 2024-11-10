@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AttyMiguel1_0: -2799306738712724441
+      AttyMiguel1_1: 9210129925889226574
+      AttyMiguel1_2: -3985345954171152125
+      AttyMiguel1_3: -3021183480578450490
+      AttyMiguel1_4: -3256340709529500640
+      AttyMiguel1_5: -4204574432538247498
+      AttyMiguel1_6: 5760513609979468704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
