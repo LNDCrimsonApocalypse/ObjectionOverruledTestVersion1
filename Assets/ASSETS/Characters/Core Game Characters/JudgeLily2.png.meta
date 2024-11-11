@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JudgeLily2_0: 3422776935946564993
+      JudgeLily2_1: 2354247593359106832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
