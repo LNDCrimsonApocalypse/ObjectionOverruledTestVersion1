@@ -274,7 +274,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bailiff_0: -3025664586978960471
+      Bailiff_1: -3648698180691878664
+      Bailiff_2: -7863428651754490642
+      Bailiff_3: 5959824086879304715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
