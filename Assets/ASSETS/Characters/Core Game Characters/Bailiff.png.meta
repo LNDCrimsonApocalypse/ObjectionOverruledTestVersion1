@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 36a3f69bd9be809439d63b00db09c4bf
+guid: c5f2145ed81d72c4a85bc8c0f441e0f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8132634534051548344
-    second: CourtClerk3_0
+      213: -3025664586978960471
+    second: Bailiff_0
+  - first:
+      213: -3648698180691878664
+    second: Bailiff_1
+  - first:
+      213: -7863428651754490642
+    second: Bailiff_2
+  - first:
+      213: 5959824086879304715
+    second: Bailiff_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +174,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CourtClerk3_0
+      name: Bailiff_0
       rect:
         serializedVersion: 2
-        x: 431
-        y: 393
-        width: 514
-        height: 1144
+        x: 248
+        y: 410
+        width: 752
+        height: 1199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +189,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84378c5daf3132f80800000000000000
-      internalID: -8132634534051548344
+      spriteID: 9abd3abb61ea206d0800000000000000
+      internalID: -3025664586978960471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bailiff_1
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1487
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc1f3716583d5dc0800000000000000
+      internalID: -3648698180691878664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bailiff_2
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1044
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee47b8fad4d7fd290800000000000000
+      internalID: -7863428651754490642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bailiff_3
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 561
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cf1463e6c85b250800000000000000
+      internalID: 5959824086879304715
       vertices: []
       indices: 
       edges: []
@@ -199,8 +274,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CourtClerk3_0: -8132634534051548344
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
