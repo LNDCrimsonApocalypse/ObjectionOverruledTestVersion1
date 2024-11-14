@@ -32,9 +32,6 @@ TextureImporter:
   - first:
       213: -4325960384959279174
     second: AngelicaOath_9
-  - first:
-      213: 5075459104325577961
-    second: AngelicaOath_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -114,33 +111,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -166,20 +137,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -198,10 +156,10 @@ TextureImporter:
       name: AngelicaOath_0
       rect:
         serializedVersion: 2
-        x: 756
-        y: 1594
-        width: 8
-        height: 8
+        x: 189
+        y: 0
+        width: 436
+        height: 871
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +178,10 @@ TextureImporter:
       name: AngelicaOath_1
       rect:
         serializedVersion: 2
-        x: 374
-        y: 499
-        width: 558
-        height: 1045
+        x: 640
+        y: 615
+        width: 15
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +200,10 @@ TextureImporter:
       name: AngelicaOath_2
       rect:
         serializedVersion: 2
-        x: 953
-        y: 1217
-        width: 18
-        height: 7
+        x: 630
+        y: 593
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +222,10 @@ TextureImporter:
       name: AngelicaOath_3
       rect:
         serializedVersion: 2
-        x: 940
-        y: 1189
-        width: 8
-        height: 10
+        x: 663
+        y: 401
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +244,10 @@ TextureImporter:
       name: AngelicaOath_4
       rect:
         serializedVersion: 2
-        x: 982
-        y: 942
-        width: 7
-        height: 9
+        x: 707
+        y: 384
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +266,10 @@ TextureImporter:
       name: AngelicaOath_5
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 920
-        width: 9
-        height: 10
+        x: 685
+        y: 363
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +288,10 @@ TextureImporter:
       name: AngelicaOath_6
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 894
-        width: 10
-        height: 9
+        x: 683
+        y: 321
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +310,10 @@ TextureImporter:
       name: AngelicaOath_7
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 840
-        width: 10
-        height: 8
+        x: 733
+        y: 200
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +332,10 @@ TextureImporter:
       name: AngelicaOath_8
       rect:
         serializedVersion: 2
-        x: 1333
-        y: 795
-        width: 11
-        height: 12
+        x: 665
+        y: 168
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +354,10 @@ TextureImporter:
       name: AngelicaOath_9
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 685
-        width: 9
-        height: 8
+        x: 875
+        y: 27
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,28 +368,6 @@ TextureImporter:
       bones: []
       spriteID: abf071623f917f3c0800000000000000
       internalID: -4325960384959279174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AngelicaOath_10
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 644
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ec29591a27af6640800000000000000
-      internalID: 5075459104325577961
       vertices: []
       indices: 
       edges: []
@@ -449,18 +385,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      AngelicaOath_0: 295589028915226360
-      AngelicaOath_1: -7033243966305006577
-      AngelicaOath_10: 5075459104325577961
-      AngelicaOath_2: 816982112527513381
-      AngelicaOath_3: 5055605828110073094
-      AngelicaOath_4: 7587027971310982362
-      AngelicaOath_5: -6947115808057024585
-      AngelicaOath_6: 358275381562655589
-      AngelicaOath_7: 8346298267134360646
-      AngelicaOath_8: -493600790840675266
-      AngelicaOath_9: -4325960384959279174
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
