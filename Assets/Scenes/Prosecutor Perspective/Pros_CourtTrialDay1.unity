@@ -7997,6 +7997,7 @@ GameObject:
   - component: {fileID: 615388842}
   - component: {fileID: 615388844}
   - component: {fileID: 615388843}
+  - component: {fileID: 615388845}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -8066,6 +8067,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615388841}
   m_CullTransparentMesh: 1
+--- !u!114 &615388845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615388841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 0}
+  typingSpeed: 0.1
 --- !u!1 &659735935
 GameObject:
   m_ObjectHideFlags: 0
@@ -17409,7 +17424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueText: {fileID: 1509394511}
+  dialogueText: {fileID: 0}
   typingSpeed: 0.1
 --- !u!1 &1405843137
 GameObject:
@@ -21988,7 +22003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueText: {fileID: 975727545}
+  dialogueText: {fileID: 1774377172}
   typingSpeed: 0.1
 --- !u!1 &1775997529
 GameObject:
