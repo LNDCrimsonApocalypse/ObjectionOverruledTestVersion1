@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 10930658}
   - component: {fileID: 10930660}
   - component: {fileID: 10930659}
+  - component: {fileID: 10930661}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -356,6 +357,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10930657}
   m_CullTransparentMesh: 1
+--- !u!114 &10930661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10930657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 751605864}
+  nextPage: {fileID: 508843160}
+  dialogueAnimation: {fileID: 975727547}
+  dialogueForNextPage: "Sustained. Please limit your answer to the defendant\u2019s
+    direct actions, Ms. Buenavidez. "
 --- !u!1 &18705456
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +759,7 @@ GameObject:
   - component: {fileID: 51857147}
   - component: {fileID: 51857149}
   - component: {fileID: 51857148}
+  - component: {fileID: 51857150}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -811,6 +830,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51857146}
   m_CullTransparentMesh: 1
+--- !u!114 &51857150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51857146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 51857148}
+  typingSpeed: 0.03
 --- !u!1 &76031250
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,6 +1006,7 @@ GameObject:
   - component: {fileID: 79264874}
   - component: {fileID: 79264876}
   - component: {fileID: 79264875}
+  - component: {fileID: 79264877}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -1041,6 +1075,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79264873}
   m_CullTransparentMesh: 1
+--- !u!114 &79264877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79264873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 133803564}
+  nextPage: {fileID: 751605864}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &98069133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1511,7 @@ GameObject:
   - component: {fileID: 117075962}
   - component: {fileID: 117075964}
   - component: {fileID: 117075963}
+  - component: {fileID: 117075965}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -1530,6 +1581,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117075961}
   m_CullTransparentMesh: 1
+--- !u!114 &117075965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117075961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 117075963}
+  typingSpeed: 0.03
 --- !u!1 &118675387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2243,7 @@ GameObject:
   - component: {fileID: 156719611}
   - component: {fileID: 156719613}
   - component: {fileID: 156719612}
+  - component: {fileID: 156719614}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -2246,6 +2312,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156719610}
   m_CullTransparentMesh: 1
+--- !u!114 &156719614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156719610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 195882282}
+  nextPage: {fileID: 1677929698}
+  dialogueAnimation: {fileID: 439582789}
+  dialogueForNextPage: Overruled! Please Anwer the Question Ms. Buenavidez
 --- !u!1 &156739228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2339,7 @@ GameObject:
   - component: {fileID: 156739229}
   - component: {fileID: 156739231}
   - component: {fileID: 156739230}
+  - component: {fileID: 156739232}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -2328,6 +2411,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156739228}
   m_CullTransparentMesh: 1
+--- !u!114 &156739232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156739228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 156739230}
+  typingSpeed: 0.03
 --- !u!1 &159306873
 GameObject:
   m_ObjectHideFlags: 0
@@ -3262,6 +3359,7 @@ GameObject:
   - component: {fileID: 232262642}
   - component: {fileID: 232262644}
   - component: {fileID: 232262643}
+  - component: {fileID: 232262645}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -3326,6 +3424,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232262641}
   m_CullTransparentMesh: 1
+--- !u!114 &232262645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232262641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 931702188}
+  nextPage: {fileID: 110499461}
+  dialogueAnimation: {fileID: 244175404}
+  dialogueForNextPage: "The evidence will demonstrate that the defendant\u2019s actions
+    were neither accidental nor misunderstandings, but deliberate attempts to harass
+    and defame the plaintiff, causing her significant emotional distress. I will
+    call our first witness, Ms. Angelica Jane Buenavidez, the plaintiff in this case.  "
 --- !u!1 &235547466
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,6 +3526,7 @@ GameObject:
   - component: {fileID: 240692605}
   - component: {fileID: 240692607}
   - component: {fileID: 240692606}
+  - component: {fileID: 240692608}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -3477,6 +3595,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240692604}
   m_CullTransparentMesh: 1
+--- !u!114 &240692608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240692604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 114736623}
+  nextPage: {fileID: 2021632175}
+  dialogueAnimation: {fileID: 1753153352}
+  dialogueForNextPage: Overruled. The foundation was established when the plaintiff
+    testified to their authenticity. The evidence is admitted into the record.  Continue.
 --- !u!1 &241260625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,6 +3702,7 @@ GameObject:
   - component: {fileID: 244175401}
   - component: {fileID: 244175403}
   - component: {fileID: 244175402}
+  - component: {fileID: 244175404}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -3638,6 +3774,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244175400}
   m_CullTransparentMesh: 1
+--- !u!114 &244175404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244175400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 244175402}
+  typingSpeed: 0.04
 --- !u!1 &244607264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,7 +3800,7 @@ GameObject:
   - component: {fileID: 244607267}
   - component: {fileID: 244607266}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Badgering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3796,6 +3946,7 @@ GameObject:
   - component: {fileID: 255864037}
   - component: {fileID: 255864039}
   - component: {fileID: 255864038}
+  - component: {fileID: 255864040}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -3867,6 +4018,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255864036}
   m_CullTransparentMesh: 1
+--- !u!114 &255864040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255864036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 255864038}
+  typingSpeed: 0.03
 --- !u!1 &260234996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,6 +4115,7 @@ GameObject:
   - component: {fileID: 262815755}
   - component: {fileID: 262815757}
   - component: {fileID: 262815756}
+  - component: {fileID: 262815758}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -4020,6 +4186,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262815754}
   m_CullTransparentMesh: 1
+--- !u!114 &262815758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262815754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 262815756}
+  typingSpeed: 0.03
 --- !u!1 &263619368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4031,6 +4211,7 @@ GameObject:
   - component: {fileID: 263619369}
   - component: {fileID: 263619371}
   - component: {fileID: 263619370}
+  - component: {fileID: 263619372}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -4099,6 +4280,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263619368}
   m_CullTransparentMesh: 1
+--- !u!114 &263619372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263619368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 263619370}
+  typingSpeed: 0.04
 --- !u!1 &273379077
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,6 +4692,7 @@ GameObject:
   - component: {fileID: 292884914}
   - component: {fileID: 292884916}
   - component: {fileID: 292884915}
+  - component: {fileID: 292884917}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -4565,6 +4761,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292884913}
   m_CullTransparentMesh: 1
+--- !u!114 &292884917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292884913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 292884915}
+  typingSpeed: 0.03
 --- !u!1 &302505712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,6 +4786,7 @@ GameObject:
   - component: {fileID: 302505713}
   - component: {fileID: 302505715}
   - component: {fileID: 302505714}
+  - component: {fileID: 302505716}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -4644,6 +4855,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302505712}
   m_CullTransparentMesh: 1
+--- !u!114 &302505716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302505712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1979310325}
+  nextPage: {fileID: 891182476}
+  dialogueAnimation: {fileID: 263619372}
+  dialogueForNextPage: Do you swear to tell the truth, the whole truth, and nothing
+    but the truth?
 --- !u!1 &306386146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,6 +5033,7 @@ GameObject:
   - component: {fileID: 320674783}
   - component: {fileID: 320674785}
   - component: {fileID: 320674784}
+  - component: {fileID: 320674786}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -4869,6 +5098,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320674782}
   m_CullTransparentMesh: 1
+--- !u!114 &320674786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320674782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 110499461}
+  nextPage: {fileID: 1979310325}
+  dialogueAnimation: {fileID: 969330446}
+  dialogueForNextPage: Ms. Angelica Jane Buenavidez, please take the stand.
 --- !u!1 &321280100
 GameObject:
   m_ObjectHideFlags: 0
@@ -4880,6 +5125,7 @@ GameObject:
   - component: {fileID: 321280101}
   - component: {fileID: 321280103}
   - component: {fileID: 321280102}
+  - component: {fileID: 321280104}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -4944,6 +5190,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321280100}
   m_CullTransparentMesh: 1
+--- !u!114 &321280104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321280100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2061137425}
+  nextPage: {fileID: 7950580}
+  dialogueAnimation: {fileID: 2073113133}
+  dialogueForNextPage: Ms. Buenavidez, can you please tell the court when you first
+    began experiencing the harassment  from the defendant?
 --- !u!1 &322117236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5034,6 +5297,7 @@ GameObject:
   - component: {fileID: 324944206}
   - component: {fileID: 324944208}
   - component: {fileID: 324944207}
+  - component: {fileID: 324944209}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -5098,6 +5362,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324944205}
   m_CullTransparentMesh: 1
+--- !u!114 &324944209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324944205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 508843160}
+  nextPage: {fileID: 2085408365}
+  dialogueAnimation: {fileID: 1509394513}
+  dialogueForNextPage: Did these posts affect you personally?
 --- !u!1 &325180091
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,6 +5707,7 @@ GameObject:
   - component: {fileID: 364074576}
   - component: {fileID: 364074578}
   - component: {fileID: 364074577}
+  - component: {fileID: 364074579}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -5495,6 +5776,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364074575}
   m_CullTransparentMesh: 1
+--- !u!114 &364074579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364074575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2061137425}
+  nextPage: {fileID: 7950580}
+  dialogueAnimation: {fileID: 2073113133}
+  dialogueForNextPage: Ms. Buenavidez, can you please tell the court when you first
+    began experiencing the harassment  from the defendant?
 --- !u!1 &369838403
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,6 +5804,7 @@ GameObject:
   - component: {fileID: 369838404}
   - component: {fileID: 369838406}
   - component: {fileID: 369838405}
+  - component: {fileID: 369838407}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -5570,6 +5869,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369838403}
   m_CullTransparentMesh: 1
+--- !u!114 &369838407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369838403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 132507339}
+  nextPage: {fileID: 206970316}
+  dialogueAnimation: {fileID: 829732731}
+  dialogueForNextPage: "Yes, I tried. I messaged her privately and asked her to stop,
+    but she ignored me and  kept posting more things. I even reported the posts,
+    but it didn\u2019t help."
 --- !u!1 &370492382
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,6 +6290,7 @@ GameObject:
   - component: {fileID: 399054063}
   - component: {fileID: 399054065}
   - component: {fileID: 399054064}
+  - component: {fileID: 399054066}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -6042,6 +6360,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399054062}
   m_CullTransparentMesh: 1
+--- !u!114 &399054066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399054062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 399054064}
+  typingSpeed: 0.03
 --- !u!1 &399433769
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,6 +6685,7 @@ GameObject:
   - component: {fileID: 426066539}
   - component: {fileID: 426066541}
   - component: {fileID: 426066540}
+  - component: {fileID: 426066542}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -6417,6 +6750,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426066538}
   m_CullTransparentMesh: 1
+--- !u!114 &426066542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426066538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 392497099}
+  nextPage: {fileID: 982159996}
+  dialogueAnimation: {fileID: 1356776463}
+  dialogueForNextPage: Defense, you may cross-examine the witness.
 --- !u!1 &436744541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,6 +6924,7 @@ GameObject:
   - component: {fileID: 439582786}
   - component: {fileID: 439582788}
   - component: {fileID: 439582787}
+  - component: {fileID: 439582789}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -6643,6 +6993,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439582785}
   m_CullTransparentMesh: 1
+--- !u!114 &439582789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439582785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 439582787}
+  typingSpeed: 0.03
 --- !u!1 &441557904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6654,6 +7018,7 @@ GameObject:
   - component: {fileID: 441557905}
   - component: {fileID: 441557907}
   - component: {fileID: 441557906}
+  - component: {fileID: 441557908}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -6724,6 +7089,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441557904}
   m_CullTransparentMesh: 1
+--- !u!114 &441557908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441557904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 441557906}
+  typingSpeed: 0.03
 --- !u!1 &454399268
 GameObject:
   m_ObjectHideFlags: 0
@@ -6968,6 +7347,7 @@ GameObject:
   - component: {fileID: 461898095}
   - component: {fileID: 461898097}
   - component: {fileID: 461898096}
+  - component: {fileID: 461898098}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -7036,6 +7416,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461898094}
   m_CullTransparentMesh: 1
+--- !u!114 &461898098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461898094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1677929698}
+  nextPage: {fileID: 114946163}
+  dialogueAnimation: {fileID: 441557908}
+  dialogueForNextPage: It started around six months ago, Your Honor.  Lucy began
+    posting Hurtful things about me on her social media accounts. At first,  I tried
+    to ignore it, but it kept getting worse
 --- !u!1 &480137555
 GameObject:
   m_ObjectHideFlags: 0
@@ -7145,6 +7543,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1938998098}
   - {fileID: 1878630303}
   - {fileID: 812393029}
   - {fileID: 1688435496}
@@ -7153,7 +7552,6 @@ RectTransform:
   - {fileID: 615388842}
   - {fileID: 1081458007}
   - {fileID: 1405317924}
-  - {fileID: 1938998098}
   m_Father: {fileID: 1179287239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7297,6 +7695,7 @@ GameObject:
   - component: {fileID: 532353212}
   - component: {fileID: 532353214}
   - component: {fileID: 532353213}
+  - component: {fileID: 532353215}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -7365,6 +7764,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532353211}
   m_CullTransparentMesh: 1
+--- !u!114 &532353215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532353211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 206970316}
+  nextPage: {fileID: 2095331656}
+  dialogueAnimation: {fileID: 1192601051}
+  dialogueForNextPage: What led you to finally file a complaint?
 --- !u!1 &539556809
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,6 +7942,7 @@ GameObject:
   - component: {fileID: 555573187}
   - component: {fileID: 555573189}
   - component: {fileID: 555573188}
+  - component: {fileID: 555573190}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -7595,6 +8011,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555573186}
   m_CullTransparentMesh: 1
+--- !u!114 &555573190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555573186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2085408365}
+  nextPage: {fileID: 135406800}
+  dialogueAnimation: {fileID: 1146281635}
+  dialogueForNextPage: Yes, they did. I couldn't sleep, I became really anxious all
+    the time. I started missing classes because I couldn't bear the thought of facing
+    anyone. It felt like everyone was laughing at me
 --- !u!1 &562669425
 GameObject:
   m_ObjectHideFlags: 0
@@ -7764,6 +8198,7 @@ GameObject:
   - component: {fileID: 575798735}
   - component: {fileID: 575798737}
   - component: {fileID: 575798736}
+  - component: {fileID: 575798738}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -7832,6 +8267,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575798734}
   m_CullTransparentMesh: 1
+--- !u!114 &575798738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575798734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 575798736}
+  typingSpeed: 0.03
 --- !u!1 &577583949
 GameObject:
   m_ObjectHideFlags: 0
@@ -7997,7 +8446,6 @@ GameObject:
   - component: {fileID: 615388842}
   - component: {fileID: 615388844}
   - component: {fileID: 615388843}
-  - component: {fileID: 615388845}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -8067,20 +8515,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615388841}
   m_CullTransparentMesh: 1
---- !u!114 &615388845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615388841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 0}
-  typingSpeed: 0.1
 --- !u!1 &659735935
 GameObject:
   m_ObjectHideFlags: 0
@@ -8387,6 +8821,7 @@ GameObject:
   - component: {fileID: 705661364}
   - component: {fileID: 705661366}
   - component: {fileID: 705661365}
+  - component: {fileID: 705661367}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -8455,6 +8890,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705661363}
   m_CullTransparentMesh: 1
+--- !u!114 &705661367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705661363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 132507339}
+  nextPage: {fileID: 206970316}
+  dialogueAnimation: {fileID: 829732731}
+  dialogueForNextPage: "Yes, I tried. I messaged her privately and asked her to stop,
+    but she ignored me and  kept posting more things. I even reported the posts,
+    but it didn\u2019t help."
 --- !u!1 &707267471
 GameObject:
   m_ObjectHideFlags: 0
@@ -9391,6 +9844,7 @@ GameObject:
   - component: {fileID: 765029320}
   - component: {fileID: 765029322}
   - component: {fileID: 765029321}
+  - component: {fileID: 765029323}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -9459,6 +9913,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765029319}
   m_CullTransparentMesh: 1
+--- !u!114 &765029323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765029319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 891182476}
+  nextPage: {fileID: 2061137425}
+  dialogueAnimation: {fileID: 399054066}
+  dialogueForNextPage: I swear by Almighty God that I will tell the truth, the whole
+    truth, and nothing but the truth.
 --- !u!1 &767797030
 GameObject:
   m_ObjectHideFlags: 0
@@ -9842,6 +10313,7 @@ GameObject:
   - component: {fileID: 781125620}
   - component: {fileID: 781125622}
   - component: {fileID: 781125621}
+  - component: {fileID: 781125623}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -9906,6 +10378,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781125619}
   m_CullTransparentMesh: 1
+--- !u!114 &781125623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781125619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1575391673}
+  nextPage: {fileID: 2016625855}
+  dialogueAnimation: {fileID: 117075965}
+  dialogueForNextPage: "Absolutely, Your Honor. She knew what she was doing, and
+    she enjoyed it. The bullying didn\u2019t stop until I filed the complaint."
 --- !u!1 &781165055
 GameObject:
   m_ObjectHideFlags: 0
@@ -10508,6 +10997,7 @@ GameObject:
   - component: {fileID: 827527974}
   - component: {fileID: 827527976}
   - component: {fileID: 827527975}
+  - component: {fileID: 827527977}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -10572,6 +11062,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827527973}
   m_CullTransparentMesh: 1
+--- !u!114 &827527977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827527973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 982159996}
+  nextPage: {fileID: 1791063481}
+  dialogueAnimation: {fileID: 1592813195}
+  dialogueForNextPage: "Thank you, Your Honor. Ms. Buenavidez, you\u2019ve stated
+    that Ms. Chua\u2019s actions were hurtful and caused you distress. However..."
 --- !u!1 &829732727
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,6 +11090,7 @@ GameObject:
   - component: {fileID: 829732728}
   - component: {fileID: 829732730}
   - component: {fileID: 829732729}
+  - component: {fileID: 829732731}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -10653,6 +11161,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829732727}
   m_CullTransparentMesh: 1
+--- !u!114 &829732731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829732727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 829732729}
+  typingSpeed: 0.03
 --- !u!1 &833753384
 GameObject:
   m_ObjectHideFlags: 0
@@ -11674,6 +12196,7 @@ GameObject:
   - component: {fileID: 957758528}
   - component: {fileID: 957758530}
   - component: {fileID: 957758529}
+  - component: {fileID: 957758531}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -11738,6 +12261,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957758527}
   m_CullTransparentMesh: 1
+--- !u!114 &957758531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957758527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 891182476}
+  nextPage: {fileID: 2061137425}
+  dialogueAnimation: {fileID: 399054066}
+  dialogueForNextPage: I swear by Almighty God that I will tell the truth, the whole
+    truth, and nothing but the truth.
 --- !u!1 &958295118
 GameObject:
   m_ObjectHideFlags: 0
@@ -11749,6 +12289,7 @@ GameObject:
   - component: {fileID: 958295119}
   - component: {fileID: 958295121}
   - component: {fileID: 958295120}
+  - component: {fileID: 958295122}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -11813,6 +12354,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958295118}
   m_CullTransparentMesh: 1
+--- !u!114 &958295122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958295118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2016625855}
+  nextPage: {fileID: 392497099}
+  dialogueAnimation: {fileID: 51857150}
+  dialogueForNextPage: 'Thank you, Ms. Buenavidez. No further questions at this time. '
 --- !u!1 &969330442
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,6 +12381,7 @@ GameObject:
   - component: {fileID: 969330443}
   - component: {fileID: 969330445}
   - component: {fileID: 969330444}
+  - component: {fileID: 969330446}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -11892,6 +12450,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969330442}
   m_CullTransparentMesh: 1
+--- !u!114 &969330446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969330442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 969330444}
+  typingSpeed: 0.04
 --- !u!1 &972298722
 GameObject:
   m_ObjectHideFlags: 0
@@ -12060,6 +12632,7 @@ GameObject:
   - component: {fileID: 975727544}
   - component: {fileID: 975727546}
   - component: {fileID: 975727545}
+  - component: {fileID: 975727547}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -12129,6 +12702,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975727543}
   m_CullTransparentMesh: 1
+--- !u!114 &975727547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975727543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 975727545}
+  typingSpeed: 0.03
 --- !u!1 &982159996
 GameObject:
   m_ObjectHideFlags: 0
@@ -12223,6 +12810,7 @@ GameObject:
   - component: {fileID: 994842354}
   - component: {fileID: 994842356}
   - component: {fileID: 994842355}
+  - component: {fileID: 994842357}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -12294,6 +12882,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994842353}
   m_CullTransparentMesh: 1
+--- !u!114 &994842357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994842353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 994842355}
+  typingSpeed: 0.05
 --- !u!1 &998724706
 GameObject:
   m_ObjectHideFlags: 0
@@ -12528,6 +13130,7 @@ GameObject:
   - component: {fileID: 1007008847}
   - component: {fileID: 1007008849}
   - component: {fileID: 1007008848}
+  - component: {fileID: 1007008850}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -12596,6 +13199,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007008846}
   m_CullTransparentMesh: 1
+--- !u!114 &1007008850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007008846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 931702188}
+  nextPage: {fileID: 110499461}
+  dialogueAnimation: {fileID: 244175404}
+  dialogueForNextPage: "The evidence will demonstrate that the defendant\u2019s actions
+    were neither accidental nor misunderstandings, but deliberate attempts to harass
+    and defame the plaintiff, causing her significant emotional distress. I will
+    call our first witness, Ms. Angelica Jane Buenavidez, the plaintiff in this case.  "
 --- !u!1 &1014731304
 GameObject:
   m_ObjectHideFlags: 0
@@ -12908,6 +13530,7 @@ GameObject:
   - component: {fileID: 1046237506}
   - component: {fileID: 1046237508}
   - component: {fileID: 1046237507}
+  - component: {fileID: 1046237509}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -12972,6 +13595,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046237505}
   m_CullTransparentMesh: 1
+--- !u!114 &1046237509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046237505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 195882282}
+  nextPage: {fileID: 1677929698}
+  dialogueAnimation: {fileID: 439582789}
+  dialogueForNextPage: Overruled! Please Anwer the Question Ms. Buenavidez
 --- !u!1 &1047130271
 GameObject:
   m_ObjectHideFlags: 0
@@ -13058,6 +13697,7 @@ GameObject:
   - component: {fileID: 1058932769}
   - component: {fileID: 1058932771}
   - component: {fileID: 1058932770}
+  - component: {fileID: 1058932772}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -13126,6 +13766,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058932768}
   m_CullTransparentMesh: 1
+--- !u!114 &1058932772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058932768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2095331656}
+  nextPage: {fileID: 1434722401}
+  dialogueAnimation: {fileID: 262815758}
+  dialogueForNextPage: "When she posted a video about me. It was the final straw.
+    She spread lies, making me look like a joke to everyone who watched it. I couldn\u2019t
+    take it anymore\u2014I had to do something to protect myself."
 --- !u!1 &1060993556
 GameObject:
   m_ObjectHideFlags: 0
@@ -13833,8 +14491,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPage: {fileID: 1817720374}
   nextPage: {fileID: 931702188}
-  dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: 
+  dialogueAnimation: {fileID: 994842357}
+  dialogueForNextPage: Thank you, Your Honor. Today, we will show beyond reasonable
+    doubt that the defendant, Ms. Lucy Marie Chua, engaged in a pattern of malicious
+    behavior toward the plaintiff, Ms. Angelica Jane Buenavidez, that falls under
+    the clear definition of cyberbullying.
 --- !u!1 &1101919895
 GameObject:
   m_ObjectHideFlags: 0
@@ -13846,6 +14507,7 @@ GameObject:
   - component: {fileID: 1101919896}
   - component: {fileID: 1101919898}
   - component: {fileID: 1101919897}
+  - component: {fileID: 1101919899}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -13910,6 +14572,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101919895}
   m_CullTransparentMesh: 1
+--- !u!114 &1101919899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101919895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 973529508}
+  nextPage: {fileID: 1405843137}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &1106622529
 GameObject:
   m_ObjectHideFlags: 0
@@ -14225,6 +14903,7 @@ GameObject:
   - component: {fileID: 1146281632}
   - component: {fileID: 1146281634}
   - component: {fileID: 1146281633}
+  - component: {fileID: 1146281635}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -14295,6 +14974,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146281631}
   m_CullTransparentMesh: 1
+--- !u!114 &1146281635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146281631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1146281633}
+  typingSpeed: 0.03
 --- !u!1 &1146572746
 GameObject:
   m_ObjectHideFlags: 0
@@ -14825,6 +15518,7 @@ GameObject:
   - component: {fileID: 1184817985}
   - component: {fileID: 1184817987}
   - component: {fileID: 1184817986}
+  - component: {fileID: 1184817988}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -14893,6 +15587,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184817984}
   m_CullTransparentMesh: 1
+--- !u!114 &1184817988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184817984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2021632175}
+  nextPage: {fileID: 132507339}
+  dialogueAnimation: {fileID: 575798738}
+  dialogueForNextPage: Ms. Buenavidez, did you ever confront Ms. Chua about these
+    posts?
 --- !u!1 &1185052567
 GameObject:
   m_ObjectHideFlags: 0
@@ -15055,6 +15766,7 @@ GameObject:
   - component: {fileID: 1192601048}
   - component: {fileID: 1192601050}
   - component: {fileID: 1192601049}
+  - component: {fileID: 1192601051}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -15123,6 +15835,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192601047}
   m_CullTransparentMesh: 1
+--- !u!114 &1192601051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192601047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1192601049}
+  typingSpeed: 0.03
 --- !u!1 &1196391468
 GameObject:
   m_ObjectHideFlags: 0
@@ -15439,6 +16165,7 @@ GameObject:
   - component: {fileID: 1226330588}
   - component: {fileID: 1226330590}
   - component: {fileID: 1226330589}
+  - component: {fileID: 1226330591}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -15507,6 +16234,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226330587}
   m_CullTransparentMesh: 1
+--- !u!114 &1226330591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226330587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1828448388}
+  nextPage: {fileID: 133803564}
+  dialogueAnimation: {fileID: 255864040}
+  dialogueForNextPage: They were mean, humiliating posts. Lucy would call me names,
+    say I was worthless, and  sometimes she'd  even tag me so her friends could see
+    and laugh. It wasn't  just once-happened over and over again. She even made memes
+    mocking my appearance.
 --- !u!1 &1232503502
 GameObject:
   m_ObjectHideFlags: 0
@@ -15665,6 +16411,7 @@ GameObject:
   - component: {fileID: 1245128658}
   - component: {fileID: 1245128660}
   - component: {fileID: 1245128659}
+  - component: {fileID: 1245128661}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -15733,6 +16480,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245128657}
   m_CullTransparentMesh: 1
+--- !u!114 &1245128661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245128657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 114946163}
+  nextPage: {fileID: 1828448388}
+  dialogueAnimation: {fileID: 292884917}
+  dialogueForNextPage: Can you describe the nature of these posts?
 --- !u!1 &1255771484
 GameObject:
   m_ObjectHideFlags: 0
@@ -15898,6 +16661,7 @@ GameObject:
   - component: {fileID: 1273868427}
   - component: {fileID: 1273868429}
   - component: {fileID: 1273868428}
+  - component: {fileID: 1273868430}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -15962,6 +16726,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273868426}
   m_CullTransparentMesh: 1
+--- !u!114 &1273868430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273868426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2095331656}
+  nextPage: {fileID: 1434722401}
+  dialogueAnimation: {fileID: 262815758}
+  dialogueForNextPage: "When she posted a video about me. It was the final straw.
+    She spread lies, making me look like a joke to everyone who watched it. I couldn\u2019t
+    take it anymore\u2014I had to do something to protect myself."
 --- !u!1 &1291564143
 GameObject:
   m_ObjectHideFlags: 0
@@ -15973,6 +16755,7 @@ GameObject:
   - component: {fileID: 1291564144}
   - component: {fileID: 1291564146}
   - component: {fileID: 1291564145}
+  - component: {fileID: 1291564147}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -16041,6 +16824,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291564143}
   m_CullTransparentMesh: 1
+--- !u!114 &1291564147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291564143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1575391673}
+  nextPage: {fileID: 2016625855}
+  dialogueAnimation: {fileID: 117075965}
+  dialogueForNextPage: "Absolutely, Your Honor. She knew what she was doing, and
+    she enjoyed it. The bullying didn\u2019t stop until I filed the complaint."
 --- !u!1 &1293528021
 GameObject:
   m_ObjectHideFlags: 0
@@ -16866,6 +17666,7 @@ GameObject:
   - component: {fileID: 1353937710}
   - component: {fileID: 1353937712}
   - component: {fileID: 1353937711}
+  - component: {fileID: 1353937713}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -16934,6 +17735,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353937709}
   m_CullTransparentMesh: 1
+--- !u!114 &1353937713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353937709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 110499461}
+  nextPage: {fileID: 1979310325}
+  dialogueAnimation: {fileID: 969330446}
+  dialogueForNextPage: Ms. Angelica Jane Buenavidez, please take the stand.
 --- !u!1 &1356049069
 GameObject:
   m_ObjectHideFlags: 0
@@ -17017,6 +17834,7 @@ GameObject:
   - component: {fileID: 1356776460}
   - component: {fileID: 1356776462}
   - component: {fileID: 1356776461}
+  - component: {fileID: 1356776463}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -17085,6 +17903,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356776459}
   m_CullTransparentMesh: 1
+--- !u!114 &1356776463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356776459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1356776461}
+  typingSpeed: 0.03
 --- !u!1 &1369583075
 GameObject:
   m_ObjectHideFlags: 0
@@ -17250,6 +18082,7 @@ GameObject:
   - component: {fileID: 1381125353}
   - component: {fileID: 1381125355}
   - component: {fileID: 1381125354}
+  - component: {fileID: 1381125356}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -17314,6 +18147,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381125352}
   m_CullTransparentMesh: 1
+--- !u!114 &1381125356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381125352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1828448388}
+  nextPage: {fileID: 133803564}
+  dialogueAnimation: {fileID: 255864040}
+  dialogueForNextPage: They were mean, humiliating posts. Lucy would call me names,
+    say I was worthless, and  sometimes she'd  even tag me so her friends could see
+    and laugh. It wasn't  just once-happened over and over again. She even made memes
+    mocking my appearance.
 --- !u!1 &1405317923
 GameObject:
   m_ObjectHideFlags: 0
@@ -17602,6 +18454,7 @@ GameObject:
   - component: {fileID: 1419767356}
   - component: {fileID: 1419767358}
   - component: {fileID: 1419767357}
+  - component: {fileID: 1419767359}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -17666,6 +18519,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419767355}
   m_CullTransparentMesh: 1
+--- !u!114 &1419767359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419767355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 751605864}
+  nextPage: {fileID: 508843160}
+  dialogueAnimation: {fileID: 975727547}
+  dialogueForNextPage: "Sustained. Please limit your answer to the defendant\u2019s
+    direct actions, Ms. Buenavidez. "
 --- !u!1 &1427698658
 GameObject:
   m_ObjectHideFlags: 0
@@ -17980,6 +18850,7 @@ GameObject:
   - component: {fileID: 1447247367}
   - component: {fileID: 1447247369}
   - component: {fileID: 1447247368}
+  - component: {fileID: 1447247370}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -18049,6 +18920,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447247366}
   m_CullTransparentMesh: 1
+--- !u!114 &1447247370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447247366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1447247368}
+  typingSpeed: 0.03
 --- !u!1 &1454801171
 GameObject:
   m_ObjectHideFlags: 0
@@ -18360,6 +19245,7 @@ GameObject:
   - component: {fileID: 1498887273}
   - component: {fileID: 1498887275}
   - component: {fileID: 1498887274}
+  - component: {fileID: 1498887276}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -18428,6 +19314,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498887272}
   m_CullTransparentMesh: 1
+--- !u!114 &1498887276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498887272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 508843160}
+  nextPage: {fileID: 2085408365}
+  dialogueAnimation: {fileID: 1509394513}
+  dialogueForNextPage: Did these posts affect you personally?
 --- !u!1 &1506226276
 GameObject:
   m_ObjectHideFlags: 0
@@ -18586,6 +19488,7 @@ GameObject:
   - component: {fileID: 1509394510}
   - component: {fileID: 1509394512}
   - component: {fileID: 1509394511}
+  - component: {fileID: 1509394513}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -18654,6 +19557,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509394509}
   m_CullTransparentMesh: 1
+--- !u!114 &1509394513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509394509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1509394511}
+  typingSpeed: 0.03
 --- !u!1 &1522391663
 GameObject:
   m_ObjectHideFlags: 0
@@ -19116,6 +20033,7 @@ GameObject:
   - component: {fileID: 1551439170}
   - component: {fileID: 1551439172}
   - component: {fileID: 1551439171}
+  - component: {fileID: 1551439173}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -19180,6 +20098,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551439169}
   m_CullTransparentMesh: 1
+--- !u!114 &1551439173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551439169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1677929698}
+  nextPage: {fileID: 114946163}
+  dialogueAnimation: {fileID: 441557908}
+  dialogueForNextPage: It started around six months ago, Your Honor.  Lucy began
+    posting Hurtful things about me on her social media accounts. At first,  I tried
+    to ignore it, but it kept getting worse
 --- !u!1 &1551624980
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,6 +20271,7 @@ GameObject:
   - component: {fileID: 1573682135}
   - component: {fileID: 1573682137}
   - component: {fileID: 1573682136}
+  - component: {fileID: 1573682138}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -19399,6 +20336,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573682134}
   m_CullTransparentMesh: 1
+--- !u!114 &1573682138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573682134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1405843137}
+  nextPage: {fileID: 114736623}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &1573852863
 GameObject:
   m_ObjectHideFlags: 0
@@ -19795,6 +20748,7 @@ GameObject:
   - component: {fileID: 1592813192}
   - component: {fileID: 1592813194}
   - component: {fileID: 1592813193}
+  - component: {fileID: 1592813195}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -19864,6 +20818,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592813191}
   m_CullTransparentMesh: 1
+--- !u!114 &1592813195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592813191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1592813193}
+  typingSpeed: 0.03
 --- !u!1 &1595484551
 GameObject:
   m_ObjectHideFlags: 0
@@ -20245,6 +21213,7 @@ GameObject:
   - component: {fileID: 1647663754}
   - component: {fileID: 1647663756}
   - component: {fileID: 1647663755}
+  - component: {fileID: 1647663757}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -20309,6 +21278,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647663753}
   m_CullTransparentMesh: 1
+--- !u!114 &1647663757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647663753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 135406800}
+  nextPage: {fileID: 973529508}
+  dialogueAnimation: {fileID: 156739232}
+  dialogueForNextPage: Your Honor, as part of the evidence, we are submitting into
+    the record called Exhibit A - screenshots of social media posts made by the defendant,
+    along with text messages sent to the plaintiff. We believe these show a clear
+    pattern of harassment.
 --- !u!1 &1656153763
 GameObject:
   m_ObjectHideFlags: 0
@@ -20395,6 +21383,7 @@ GameObject:
   - component: {fileID: 1659073500}
   - component: {fileID: 1659073502}
   - component: {fileID: 1659073501}
+  - component: {fileID: 1659073503}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -20464,6 +21453,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659073499}
   m_CullTransparentMesh: 1
+--- !u!114 &1659073503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659073499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1659073501}
+  typingSpeed: 0.03
 --- !u!1 &1664317578
 GameObject:
   m_ObjectHideFlags: 0
@@ -20554,6 +21557,7 @@ GameObject:
   - component: {fileID: 1666157495}
   - component: {fileID: 1666157497}
   - component: {fileID: 1666157496}
+  - component: {fileID: 1666157498}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -20622,6 +21626,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666157494}
   m_CullTransparentMesh: 1
+--- !u!114 &1666157498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666157494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2016625855}
+  nextPage: {fileID: 392497099}
+  dialogueAnimation: {fileID: 51857150}
+  dialogueForNextPage: 'Thank you, Ms. Buenavidez. No further questions at this time. '
 --- !u!1 &1666744128
 GameObject:
   m_ObjectHideFlags: 0
@@ -21165,6 +22185,7 @@ GameObject:
   - component: {fileID: 1701127890}
   - component: {fileID: 1701127892}
   - component: {fileID: 1701127891}
+  - component: {fileID: 1701127893}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -21229,6 +22250,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701127889}
   m_CullTransparentMesh: 1
+--- !u!114 &1701127893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701127889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2085408365}
+  nextPage: {fileID: 135406800}
+  dialogueAnimation: {fileID: 1146281635}
+  dialogueForNextPage: Yes, they did. I couldn't sleep, I became really anxious all
+    the time. I started missing classes because I couldn't bear the thought of facing
+    anyone. It felt like everyone was laughing at me
 --- !u!1 &1702370113
 GameObject:
   m_ObjectHideFlags: 0
@@ -21387,6 +22426,7 @@ GameObject:
   - component: {fileID: 1722314304}
   - component: {fileID: 1722314306}
   - component: {fileID: 1722314305}
+  - component: {fileID: 1722314307}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -21451,6 +22491,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722314303}
   m_CullTransparentMesh: 1
+--- !u!114 &1722314307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722314303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1434722401}
+  nextPage: {fileID: 1575391673}
+  dialogueAnimation: {fileID: 1447247370}
+  dialogueForNextPage: Ms. Buenavidez, do you believe the defendant intended to cause
+    you harm through these actions?
 --- !u!1 &1729070962
 GameObject:
   m_ObjectHideFlags: 0
@@ -21462,6 +22519,7 @@ GameObject:
   - component: {fileID: 1729070963}
   - component: {fileID: 1729070965}
   - component: {fileID: 1729070964}
+  - component: {fileID: 1729070966}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -21526,6 +22584,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729070962}
   m_CullTransparentMesh: 1
+--- !u!114 &1729070966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729070962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 114736623}
+  nextPage: {fileID: 2021632175}
+  dialogueAnimation: {fileID: 1753153352}
+  dialogueForNextPage: Overruled. The foundation was established when the plaintiff
+    testified to their authenticity. The evidence is admitted into the record.  Continue.
 --- !u!1 &1737587123
 GameObject:
   m_ObjectHideFlags: 0
@@ -21616,6 +22691,7 @@ GameObject:
   - component: {fileID: 1741991735}
   - component: {fileID: 1741991737}
   - component: {fileID: 1741991736}
+  - component: {fileID: 1741991738}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -21680,6 +22756,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741991734}
   m_CullTransparentMesh: 1
+--- !u!114 &1741991738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741991734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 114946163}
+  nextPage: {fileID: 1828448388}
+  dialogueAnimation: {fileID: 292884917}
+  dialogueForNextPage: Can you describe the nature of these posts?
 --- !u!1 &1746885152
 GameObject:
   m_ObjectHideFlags: 0
@@ -21766,6 +22858,7 @@ GameObject:
   - component: {fileID: 1753153349}
   - component: {fileID: 1753153351}
   - component: {fileID: 1753153350}
+  - component: {fileID: 1753153352}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -21835,6 +22928,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753153348}
   m_CullTransparentMesh: 1
+--- !u!114 &1753153352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753153348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1753153350}
+  typingSpeed: 0.03
 --- !u!1 &1755406714
 GameObject:
   m_ObjectHideFlags: 0
@@ -22004,7 +23111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1774377172}
-  typingSpeed: 0.1
+  typingSpeed: 0.04
 --- !u!1 &1775997529
 GameObject:
   m_ObjectHideFlags: 0
@@ -22016,6 +23123,7 @@ GameObject:
   - component: {fileID: 1775997530}
   - component: {fileID: 1775997532}
   - component: {fileID: 1775997531}
+  - component: {fileID: 1775997533}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -22080,6 +23188,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775997529}
   m_CullTransparentMesh: 1
+--- !u!114 &1775997533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775997529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2021632175}
+  nextPage: {fileID: 132507339}
+  dialogueAnimation: {fileID: 575798738}
+  dialogueForNextPage: Ms. Buenavidez, did you ever confront Ms. Chua about these
+    posts?
 --- !u!1 &1781153264
 GameObject:
   m_ObjectHideFlags: 0
@@ -22170,6 +23295,7 @@ GameObject:
   - component: {fileID: 1789510925}
   - component: {fileID: 1789510927}
   - component: {fileID: 1789510926}
+  - component: {fileID: 1789510928}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -22238,6 +23364,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789510924}
   m_CullTransparentMesh: 1
+--- !u!114 &1789510928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789510924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 7950580}
+  nextPage: {fileID: 195882282}
+  dialogueAnimation: {fileID: 1659073503}
+  dialogueForNextPage: Ms. Buenavidez, can you please tell the court when you first
+    began experiencing the harassment  from the defendant?
 --- !u!1 &1791063481
 GameObject:
   m_ObjectHideFlags: 0
@@ -22650,13 +23793,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 565958635}
   - {fileID: 1083351935}
   - {fileID: 1072293914}
   - {fileID: 373022155}
   - {fileID: 372856456}
   - {fileID: 1100811481}
   - {fileID: 1948160914}
-  - {fileID: 565958635}
   - {fileID: 1774377171}
   m_Father: {fileID: 1179287239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22714,6 +23857,7 @@ GameObject:
   - component: {fileID: 1820847575}
   - component: {fileID: 1820847577}
   - component: {fileID: 1820847576}
+  - component: {fileID: 1820847578}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -22778,6 +23922,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820847574}
   m_CullTransparentMesh: 1
+--- !u!114 &1820847578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820847574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 206970316}
+  nextPage: {fileID: 2095331656}
+  dialogueAnimation: {fileID: 1192601051}
+  dialogueForNextPage: What led you to finally file a complaint?
 --- !u!1 &1824169527
 GameObject:
   m_ObjectHideFlags: 0
@@ -22789,6 +23949,7 @@ GameObject:
   - component: {fileID: 1824169528}
   - component: {fileID: 1824169530}
   - component: {fileID: 1824169529}
+  - component: {fileID: 1824169531}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -22853,6 +24014,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824169527}
   m_CullTransparentMesh: 1
+--- !u!114 &1824169531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824169527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1979310325}
+  nextPage: {fileID: 891182476}
+  dialogueAnimation: {fileID: 263619372}
+  dialogueForNextPage: Do you swear to tell the truth, the whole truth, and nothing
+    but the truth?
 --- !u!1 &1828448388
 GameObject:
   m_ObjectHideFlags: 0
@@ -22950,6 +24128,7 @@ GameObject:
   - component: {fileID: 1828839122}
   - component: {fileID: 1828839124}
   - component: {fileID: 1828839123}
+  - component: {fileID: 1828839125}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -23018,6 +24197,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828839121}
   m_CullTransparentMesh: 1
+--- !u!114 &1828839125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828839121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 973529508}
+  nextPage: {fileID: 1405843137}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &1833265905
 GameObject:
   m_ObjectHideFlags: 0
@@ -23954,6 +25149,7 @@ GameObject:
   - component: {fileID: 1925760816}
   - component: {fileID: 1925760818}
   - component: {fileID: 1925760817}
+  - component: {fileID: 1925760819}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -24018,6 +25214,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925760815}
   m_CullTransparentMesh: 1
+--- !u!114 &1925760819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925760815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 133803564}
+  nextPage: {fileID: 751605864}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &1938998097
 GameObject:
   m_ObjectHideFlags: 0
@@ -24338,8 +25550,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPage: {fileID: 1817720374}
   nextPage: {fileID: 931702188}
-  dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: 
+  dialogueAnimation: {fileID: 994842357}
+  dialogueForNextPage: Thank you, Your Honor. Today, we will show beyond reasonable
+    doubt that the defendant, Ms. Lucy Marie Chua, engaged in a pattern of malicious
+    behavior toward the plaintiff, Ms. Angelica Jane Buenavidez, that falls under
+    the clear definition of cyberbullying.
 --- !u!1 &1955286823
 GameObject:
   m_ObjectHideFlags: 0
@@ -24971,6 +26186,7 @@ GameObject:
   - component: {fileID: 1992952858}
   - component: {fileID: 1992952860}
   - component: {fileID: 1992952859}
+  - component: {fileID: 1992952861}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -25039,6 +26255,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992952857}
   m_CullTransparentMesh: 1
+--- !u!114 &1992952861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992952857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1405843137}
+  nextPage: {fileID: 114736623}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &2006389814
 GameObject:
   m_ObjectHideFlags: 0
@@ -25050,6 +26282,7 @@ GameObject:
   - component: {fileID: 2006389815}
   - component: {fileID: 2006389817}
   - component: {fileID: 2006389816}
+  - component: {fileID: 2006389818}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -25118,6 +26351,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006389814}
   m_CullTransparentMesh: 1
+--- !u!114 &2006389818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006389814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 1434722401}
+  nextPage: {fileID: 1575391673}
+  dialogueAnimation: {fileID: 1447247370}
+  dialogueForNextPage: Ms. Buenavidez, do you believe the defendant intended to cause
+    you harm through these actions?
 --- !u!1 &2016625855
 GameObject:
   m_ObjectHideFlags: 0
@@ -25300,6 +26550,7 @@ GameObject:
   - component: {fileID: 2031836403}
   - component: {fileID: 2031836405}
   - component: {fileID: 2031836404}
+  - component: {fileID: 2031836406}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -25368,6 +26619,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031836402}
   m_CullTransparentMesh: 1
+--- !u!114 &2031836406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031836402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 392497099}
+  nextPage: {fileID: 982159996}
+  dialogueAnimation: {fileID: 1356776463}
+  dialogueForNextPage: Defense, you may cross-examine the witness.
 --- !u!1 &2049283108
 GameObject:
   m_ObjectHideFlags: 0
@@ -25692,6 +26959,7 @@ GameObject:
   - component: {fileID: 2073113130}
   - component: {fileID: 2073113132}
   - component: {fileID: 2073113131}
+  - component: {fileID: 2073113133}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -25761,6 +27029,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073113129}
   m_CullTransparentMesh: 1
+--- !u!114 &2073113133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073113129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be62d59429b2ff94aa0245dfede25a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 2073113131}
+  typingSpeed: 0.03
 --- !u!1 &2079037804
 GameObject:
   m_ObjectHideFlags: 0
@@ -25772,6 +27054,7 @@ GameObject:
   - component: {fileID: 2079037805}
   - component: {fileID: 2079037807}
   - component: {fileID: 2079037806}
+  - component: {fileID: 2079037808}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -25840,6 +27123,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079037804}
   m_CullTransparentMesh: 1
+--- !u!114 &2079037808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079037804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 982159996}
+  nextPage: {fileID: 1791063481}
+  dialogueAnimation: {fileID: 1592813195}
+  dialogueForNextPage: "Thank you, Your Honor. Ms. Buenavidez, you\u2019ve stated
+    that Ms. Chua\u2019s actions were hurtful and caused you distress. However..."
 --- !u!1 &2080126198
 GameObject:
   m_ObjectHideFlags: 0
@@ -25851,6 +27151,7 @@ GameObject:
   - component: {fileID: 2080126199}
   - component: {fileID: 2080126201}
   - component: {fileID: 2080126200}
+  - component: {fileID: 2080126202}
   m_Layer: 5
   m_Name: NextBtn
   m_TagString: Untagged
@@ -25915,6 +27216,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080126198}
   m_CullTransparentMesh: 1
+--- !u!114 &2080126202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080126198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 7950580}
+  nextPage: {fileID: 195882282}
+  dialogueAnimation: {fileID: 1659073503}
+  dialogueForNextPage: Ms. Buenavidez, can you please tell the court when you first
+    began experiencing the harassment  from the defendant?
 --- !u!1 &2085408365
 GameObject:
   m_ObjectHideFlags: 0
@@ -26710,6 +28028,7 @@ GameObject:
   - component: {fileID: 2147477769}
   - component: {fileID: 2147477771}
   - component: {fileID: 2147477770}
+  - component: {fileID: 2147477772}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -26778,6 +28097,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147477768}
   m_CullTransparentMesh: 1
+--- !u!114 &2147477772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147477768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 135406800}
+  nextPage: {fileID: 973529508}
+  dialogueAnimation: {fileID: 156739232}
+  dialogueForNextPage: Your Honor, as part of the evidence, we are submitting into
+    the record called Exhibit A - screenshots of social media posts made by the defendant,
+    along with text messages sent to the plaintiff. We believe these show a clear
+    pattern of harassment.
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
