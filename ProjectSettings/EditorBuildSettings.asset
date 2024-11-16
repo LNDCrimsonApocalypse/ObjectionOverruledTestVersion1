@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prosecutor Perspective/Pros_Day1Trial.unity
     guid: 7e47b585726ea4c4884818ca310ffde2
+  - enabled: 1
+    path: Assets/Scenes/Prosecutor Perspective/Pros_Day2Trial.unity
+    guid: a4a45000a525f6846a71abe9be8ecaa8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
