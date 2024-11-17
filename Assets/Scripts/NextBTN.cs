@@ -21,7 +21,7 @@ public class NextBtn : MonoBehaviour, IPointerClickHandler
         // Set the dialogue text for Page 2 dynamically
         dialogueAnimation.SetDialogue(dialogueForNextPage);
 
-        // Start the typing effect (the text typing animation on Page 2)
+        // Start the typing effect (the text typing animation on Page 2) 
         dialogueAnimation.StartTyping();
     }
 }
