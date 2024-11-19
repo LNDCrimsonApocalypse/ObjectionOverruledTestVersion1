@@ -15,9 +15,18 @@ public class VolumeSettings : MonoBehaviour
 
     private void Awake()
     {
-        // Add listeners for slider changes
-        MusicSlider.onValueChanged.AddListener(SetMusicVolume);
-        SFXSlider.onValueChanged.AddListener(SetSFXVolume);
+        // Add listeners for slider changes with saving logic
+        MusicSlider.onValueChanged.AddListener((value) =>
+        {
+            SetMusicVolume(value);
+            SaveVolumeSettings(MUSIC_PREF, value);
+        });
+
+        SFXSlider.onValueChanged.AddListener((value) =>
+        {
+            SetSFXVolume(value);
+            SaveVolumeSettings(SFX_PREF, value);
+        });
     }
 
     private void OnEnable()
@@ -49,14 +58,11 @@ public class VolumeSettings : MonoBehaviour
         Debug.Log($"SFX volume set to {value}");
     }
 
-    public void SaveVolumeSettings()
+    private void SaveVolumeSettings(string key, float value)
     {
-        // Save current slider values to PlayerPrefs
-        PlayerPrefs.SetFloat(MUSIC_PREF, MusicSlider.value);
-        PlayerPrefs.SetFloat(SFX_PREF, SFXSlider.value);
+        // Save the provided value to PlayerPrefs
+        PlayerPrefs.SetFloat(key, value);
         PlayerPrefs.Save(); // Force save to disk
-
-        Debug.Log($"Saved Music Volume: {MusicSlider.value}");
-        Debug.Log($"Saved SFX Volume: {SFXSlider.value}");
+        Debug.Log($"Saved {key}: {value}");
     }
 }
