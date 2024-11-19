@@ -2099,7 +2099,6 @@ GameObject:
   - component: {fileID: 110499462}
   - component: {fileID: 110499464}
   - component: {fileID: 110499463}
-  - component: {fileID: 110499465}
   m_Layer: 5
   m_Name: CTD1ProScene4
   m_TagString: Untagged
@@ -2171,23 +2170,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110499461}
   m_CullTransparentMesh: 1
---- !u!114 &110499465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110499461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionDelay: 12
-  currentPage: {fileID: 110499461}
-  nextPage: {fileID: 1979310325}
-  dialogueAnimation: {fileID: 969330446}
-  dialogueForNextPage: Ms. Angelica Jane Buenavidez, please take the stand.
 --- !u!1 &114068806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5064,7 +5046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &232262642
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7270,7 +7252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &320674783
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20348,7 +20330,6 @@ GameObject:
   - component: {fileID: 931702189}
   - component: {fileID: 931702191}
   - component: {fileID: 931702190}
-  - component: {fileID: 931702192}
   m_Layer: 5
   m_Name: CTD1ProScene3
   m_TagString: Untagged
@@ -20420,26 +20401,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931702188}
   m_CullTransparentMesh: 1
---- !u!114 &931702192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931702188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionDelay: 10
-  currentPage: {fileID: 931702188}
-  nextPage: {fileID: 110499461}
-  dialogueAnimation: {fileID: 244175404}
-  dialogueForNextPage: "The evidence will demonstrate that the defendant\u2019s actions
-    were neither accidental nor misunderstandings, but deliberate attempts to harass
-    and defame the plaintiff, causing her significant emotional distress. I will
-    call our first witness, Ms. Angelica Jane Buenavidez, the plaintiff in this case.  "
 --- !u!1 &931907603
 GameObject:
   m_ObjectHideFlags: 0
