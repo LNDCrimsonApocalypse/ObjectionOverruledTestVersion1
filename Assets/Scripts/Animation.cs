@@ -1,16 +1,20 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Animation : MonoBehaviour
+public class PageTransition : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Animator animator; // Reference to the Animator
+    public string nextSceneName; // Name of the next page (scene)
+
+    public void TriggerNextPage()
     {
-        
+        // Set the trigger to play the animation
+        animator.SetTrigger("NextPage");
     }
 
-    // Update is called once per frame
-    void Update()
+    // This function is called at the end of the animation (via Animation Event)
+    public void LoadNextScene()
     {
-        
+        SceneManager.LoadScene(nextSceneName);
     }
 }
