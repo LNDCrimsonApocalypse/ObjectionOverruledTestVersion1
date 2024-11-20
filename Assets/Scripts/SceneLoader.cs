@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -9,80 +8,53 @@ public class SceneLoader : MonoBehaviour
     public GameObject loaderUI;
     public Slider progressSlider;
 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void OnSceneLoad()
+    {
+        // Dynamically add a loading screen if it doesn't already exist
+        GameObject loaderObject = new GameObject("SceneLoader");
+        loaderObject.AddComponent<SceneLoader>();
+        DontDestroyOnLoad(loaderObject); // Ensure it persists while the scene loads
+    }
+
+    private void Awake()
+    {
+        // Initialize the loader UI and slider dynamically or from the scene
+        if (loaderUI == null)
+        {
+            loaderUI = new GameObject("LoaderUI");
+            Canvas canvas = loaderUI.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+
+            // Add a slider for progress
+            GameObject sliderObject = new GameObject("ProgressSlider");
+            sliderObject.transform.SetParent(loaderUI.transform);
+            progressSlider = sliderObject.AddComponent<Slider>();
+        }
+
+        loaderUI.SetActive(false); // Hide initially
+    }
+
     private void Start()
     {
-        // Ensure the loading UI is hidden initially
-        if (loaderUI != null)
-            loaderUI.SetActive(false);
+        StartCoroutine(TrackSceneLoading());
     }
 
-    /// <summary>
-    /// Load a scene by index.
-    /// </summary>
-    /// <param name="index">Build index of the target scene.</param>
-    public void LoadScene(int index)
+    private IEnumerator TrackSceneLoading()
     {
-        StartCoroutine(LoadSceneCoroutine(index, null));
-    }
-
-    /// <summary>
-    /// Load a scene by name.
-    /// </summary>
-    /// <param name="sceneName">Name of the target scene.</param>
-    public void LoadSceneByName(string sceneName)
-    {
-        StartCoroutine(LoadSceneCoroutine(-1, sceneName));
-    }
-
-    /// <summary>
-    /// Coroutine to load a scene asynchronously.
-    /// </summary>
-    /// <param name="sceneIndex">Build index of the target scene (-1 if using sceneName).</param>
-    /// <param name="sceneName">Name of the target scene (null if using sceneIndex).</param>
-    private IEnumerator LoadSceneCoroutine(int sceneIndex, string sceneName)
-    {
-        // Ensure the loading UI is active
-        if (loaderUI != null)
-            loaderUI.SetActive(true);
-
-        // Initialize slider value
-        if (progressSlider != null)
-            progressSlider.value = 0;
-
-        // Start loading the scene asynchronously
-        AsyncOperation asyncOperation = sceneIndex >= 0
-            ? SceneManager.LoadSceneAsync(sceneIndex)
-            : SceneManager.LoadSceneAsync(sceneName);
-
-        asyncOperation.allowSceneActivation = false;
+        loaderUI.SetActive(true);
 
         float progress = 0;
-
-        // Monitor the loading progress
-        while (!asyncOperation.isDone)
+        while (progress < 1f)
         {
-            // Smoothly increase progress value
-            progress = Mathf.Lerp(progress, asyncOperation.progress, Time.deltaTime * 5f);
-
-            // Clamp the slider value to avoid abrupt jumps
-            if (progressSlider != null)
-                progressSlider.value = Mathf.Clamp01(progress / 0.9f);
-
-            // Check if loading is nearly complete
-            if (progress >= 0.9f)
-            {
-                if (progressSlider != null)
-                    progressSlider.value = 1;
-
-                // Allow the scene to activate
-                asyncOperation.allowSceneActivation = true;
-            }
+            // Simulate scene loading progress (replace with actual logic if needed)
+            progress += Time.deltaTime * 0.5f; // Simulating a gradual load for demonstration
+            progressSlider.value = progress;
 
             yield return null;
         }
 
-        // Hide the loading UI after the scene is loaded
-        if (loaderUI != null)
-            loaderUI.SetActive(false);
+        loaderUI.SetActive(false); // Hide UI once the scene has loaded
+        Destroy(gameObject); // Clean up the SceneLoader object
     }
 }
