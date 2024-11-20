@@ -24,38 +24,35 @@ public class GraphicsSetting : MonoBehaviour
         HighBtn.onClick.AddListener(SetHighQuality);
 
         // Initialize the state
+        Debug.Log("Initializing to Low Quality by default");
         SetLowQuality(); // Default to Low
     }
 
     public void SetLowQuality()
     {
-        // Set quality level
+        Debug.Log("Low quality selected");
         QualitySettings.SetQualityLevel(0);
-
-        // Update icons
         UpdateIcons(LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon, HighOnIcon, HighOffIcon);
     }
 
     public void SetMediumQuality()
     {
-        // Set quality level
+        Debug.Log("Medium quality selected");
         QualitySettings.SetQualityLevel(1);
-
-        // Update icons
         UpdateIcons(MediumOnIcon, MediumOffIcon, LowOnIcon, LowOffIcon, HighOnIcon, HighOffIcon);
     }
 
     public void SetHighQuality()
     {
-        // Set quality level
+        Debug.Log("High quality selected");
         QualitySettings.SetQualityLevel(2);
-
-        // Update icons
         UpdateIcons(HighOnIcon, HighOffIcon, LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon);
     }
 
     private void UpdateIcons(GameObject activeOnIcon, GameObject activeOffIcon, GameObject otherOnIcon1, GameObject otherOffIcon1, GameObject otherOnIcon2, GameObject otherOffIcon2)
     {
+        Debug.Log($"Updating icons. Active: {activeOnIcon.name}, Deactivating: {otherOnIcon1.name} & {otherOnIcon2.name}");
+
         // Activate the selected button's ON icon
         activeOnIcon.SetActive(true);
         activeOffIcon.SetActive(false);
