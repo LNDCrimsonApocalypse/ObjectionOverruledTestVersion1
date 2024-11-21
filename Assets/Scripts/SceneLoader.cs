@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
     [Header("UI Elements")]
     public GameObject loaderUI;
     public Slider progressSlider;
+    public float displayDuration = 2f; // How long the loader is visible
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void OnSceneLoad()
@@ -48,7 +49,7 @@ public class SceneLoader : MonoBehaviour
         while (progress < 1f)
         {
             // Simulate scene loading progress (replace with actual logic if needed)
-            progress += Time.deltaTime * 0.5f; // Simulating a gradual load for demonstration
+            progress += Time.deltaTime / displayDuration;
             progressSlider.value = progress;
 
             yield return null;
