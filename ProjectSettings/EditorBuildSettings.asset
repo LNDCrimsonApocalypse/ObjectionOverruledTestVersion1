@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CutsceneScreen.unity
     guid: 5583455c68edfdc4bbf934f27f86a776
   - enabled: 1
+    path: Assets/Scenes/SpotTheDifferenceScreen.unity
+    guid: e17e6a851feac1444af2af18767defa4
+  - enabled: 1
     path: Assets/Scenes/Prosecutor Perspective/Pros_PreTrial.unity
     guid: 2b4d3aae81976124287b147c9b9cf92a
   - enabled: 1

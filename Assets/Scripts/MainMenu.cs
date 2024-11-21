@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+public class TrueSceneLoader : MonoBehaviour
 {
     // Reference to the confirmation pop-up
     public GameObject confirmationPopup;
