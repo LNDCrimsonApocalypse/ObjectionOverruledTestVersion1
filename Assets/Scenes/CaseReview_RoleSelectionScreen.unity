@@ -1825,7 +1825,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 51.866}
-  m_SizeDelta: {x: 450, y: 550}
+  m_SizeDelta: {x: 400, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466765231
 MonoBehaviour:
@@ -2778,7 +2778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPage: {fileID: 1892014523}
-  nextPage: {fileID: 240410745}
+  nextPage: {fileID: 1712035121}
   dialogueAnimation: {fileID: 0}
   dialogueForNextPage: 
 --- !u!114 &814797871
@@ -4253,7 +4253,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 51.866}
-  m_SizeDelta: {x: 450, y: 550}
+  m_SizeDelta: {x: 400, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293475501
 MonoBehaviour:
