@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: d4cd99bc12f818c47b321ff9ef647dfb
+guid: b322e77a3341afa4c9858719d5763e2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6101828702731656069
-    second: Lucy1_0
-  - first:
-      213: 777037769495005095
-    second: Lucy1_1
+      213: 1975699680144672774
+    second: LucyDefensive_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,6 +84,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -100,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lucy1_0
+      name: LucyDefensive_0
       rect:
         serializedVersion: 2
-        x: 442
-        y: 166
-        width: 637
-        height: 1174
+        x: 111
+        y: 0
+        width: 369
+        height: 591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58b5a9250ec0ea450800000000000000
-      internalID: 6101828702731656069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lucy1_1
-      rect:
-        serializedVersion: 2
-        x: 1081
-        y: 710
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a7cfc30cb798ca00800000000000000
-      internalID: 777037769495005095
+      spriteID: 60840e134681b6b10800000000000000
+      internalID: 1975699680144672774
       vertices: []
       indices: 
       edges: []
@@ -172,9 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Lucy1_0: 6101828702731656069
-      Lucy1_1: 777037769495005095
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
