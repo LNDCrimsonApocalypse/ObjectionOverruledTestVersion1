@@ -1071,6 +1071,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1713194129094818880, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713194129094818880, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6246460342725659197, guid: a97e3388a644e604292a8a5235f1650f, type: 3}
+    - target: {fileID: 1713194129094818880, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.b
+      value: 0.995283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713194129094818880, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.g
+      value: 0.995283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713194129094818880, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113707992201152744, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145188013907032542, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145188013907032542, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145188013907032542, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145188013907032542, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Color.r
+      value: 0.105882354
+      objectReference: {fileID: 0}
     - target: {fileID: 2438438271926966200, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1151,10 +1191,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3553144125283401364, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553144125283401364, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206245603247848852, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206245603247848852, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5560842641809895514, guid: 69e5e6c88b396df4b8aba7820ea0a3f2, type: 3}
     - target: {fileID: 5417497128641482356, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
       propertyPath: m_Name
       value: SceneLoaderCanvasTest
       objectReference: {fileID: 0}
+    - target: {fileID: 5786958192106889435, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8388801283328167615, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4288279188070711235, guid: 8d695793736a8b04d88d32939956e948, type: 3}
     m_RemovedComponents:
     - {fileID: 2894749082132116686, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
     m_RemovedGameObjects: []
@@ -1715,6 +1779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loaderUI: {fileID: 526657212}
   progressSlider: {fileID: 956266743}
+  displayDuration: 2
 --- !u!1 &715642046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,6 +2437,10 @@ PrefabInstance:
     - target: {fileID: 5417497128641482356, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
       propertyPath: m_Name
       value: SceneLoaderCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417497128641482356, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2894749082132116686, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
