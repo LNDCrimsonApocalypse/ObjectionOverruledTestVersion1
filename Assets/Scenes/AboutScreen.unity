@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39a489d2f60f6149862c9d1e7f3db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HOME
+  customSceneName: Home
 --- !u!114 &1428814543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2614270113051161491, guid: 3b6a5128f73c9d64eb3dc87be3b3dcd9, type: 3}
+  m_Sprite: {fileID: -4571828015118065507, guid: 3c14f34d0164874498e20002f9eacde5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
