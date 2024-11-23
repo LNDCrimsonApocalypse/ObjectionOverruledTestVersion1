@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class EvidenceSelector : MonoBehaviour
@@ -21,24 +22,80 @@ public class EvidenceSelector : MonoBehaviour
         {
             int index = i; // Capture the index for closure
             evidenceButtons[i].onClick.AddListener(() => SelectEvidence(index));
+
+            // Add hover events
+            AddHoverEffect(evidenceButtons[i], index);
         }
 
         // Add listener to the Present button
         presentButton.onClick.AddListener(PresentEvidence);
+
+        // Ensure all overlays are initially transparent
+        foreach (var button in evidenceButtons)
+        {
+            Transform overlay = button.transform.Find("Overlay");
+            if (overlay != null)
+            {
+                overlay.GetComponent<Image>().color = new Color(0, 0, 0, 0); // Fully transparent
+            }
+        }
+    }
+
+    void AddHoverEffect(Button button, int index)
+    {
+        EventTrigger trigger = button.gameObject.AddComponent<EventTrigger>();
+
+        // Add pointer enter event (hover start)
+        EventTrigger.Entry pointerEnter = new EventTrigger.Entry();
+        pointerEnter.eventID = EventTriggerType.PointerEnter;
+        pointerEnter.callback.AddListener((_) => OnHoverEnter(index));
+        trigger.triggers.Add(pointerEnter);
+
+        // Add pointer exit event (hover end)
+        EventTrigger.Entry pointerExit = new EventTrigger.Entry();
+        pointerExit.eventID = EventTriggerType.PointerExit;
+        pointerExit.callback.AddListener((_) => OnHoverExit(index));
+        trigger.triggers.Add(pointerExit);
+    }
+
+    void OnHoverEnter(int index)
+    {
+        // Show hover effect (light transparent overlay)
+        Transform overlay = evidenceButtons[index].transform.Find("Overlay");
+        if (overlay != null && selectedEvidence != index)
+        {
+            overlay.GetComponent<Image>().color = new Color(0, 0, 0, 0.2f); // Light transparent black
+        }
+    }
+
+    void OnHoverExit(int index)
+    {
+        // Remove hover effect
+        Transform overlay = evidenceButtons[index].transform.Find("Overlay");
+        if (overlay != null && selectedEvidence != index)
+        {
+            overlay.GetComponent<Image>().color = new Color(0, 0, 0, 0); // Fully transparent
+        }
     }
 
     void SelectEvidence(int index)
     {
-        // Reset all button colors to default (white)
+        // Reset all overlay colors to fully transparent
         foreach (var button in evidenceButtons)
         {
-            // Reset to default color (white)
-            button.image.color = Color.white;
+            Transform overlay = button.transform.Find("Overlay");
+            if (overlay != null)
+            {
+                overlay.GetComponent<Image>().color = new Color(0, 0, 0, 0); // Fully transparent
+            }
         }
 
-        // Set the selected button color to transparent black
-        Button selectedButton = evidenceButtons[index];
-        selectedButton.image.color = new Color(0, 0, 0, 0.5f); // Transparent black (50% opacity)
+        // Set the selected overlay color to transparent black
+        Transform selectedOverlay = evidenceButtons[index].transform.Find("Overlay");
+        if (selectedOverlay != null)
+        {
+            selectedOverlay.GetComponent<Image>().color = new Color(0, 0, 0, 0.5f); // Transparent black (50% opacity)
+        }
 
         selectedEvidence = index; // Store the selected evidence
     }

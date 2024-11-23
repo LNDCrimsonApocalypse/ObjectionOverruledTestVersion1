@@ -3541,6 +3541,7 @@ GameObject:
   - component: {fileID: 110499462}
   - component: {fileID: 110499464}
   - component: {fileID: 110499463}
+  - component: {fileID: 110499465}
   m_Layer: 5
   m_Name: CTD1ProScene4
   m_TagString: Untagged
@@ -3612,6 +3613,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110499461}
   m_CullTransparentMesh: 1
+--- !u!114 &110499465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110499461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionDelay: 5
+  currentPage: {fileID: 110499461}
+  nextPage: {fileID: 1979310325}
+  dialogueAnimation: {fileID: 969330446}
+  dialogueForNextPage: Ms. Angelica Jane Buenavidez, please take the stand.
 --- !u!1 &114068806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,6 +4664,7 @@ GameObject:
   - component: {fileID: 133803565}
   - component: {fileID: 133803567}
   - component: {fileID: 133803566}
+  - component: {fileID: 133803568}
   m_Layer: 5
   m_Name: CTD1ProScene14
   m_TagString: Untagged
@@ -4718,6 +4737,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133803564}
   m_CullTransparentMesh: 1
+--- !u!114 &133803568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133803564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionDelay: 10
+  currentPage: {fileID: 133803564}
+  nextPage: {fileID: 973529508}
+  dialogueAnimation: {fileID: 156739232}
+  dialogueForNextPage: Your Honor, as part of the evidence, we are submitting into
+    the record called Exhibit A - screenshots of social media posts made by the defendant,
+    along with text messages sent to the plaintiff. We believe these show a clear
+    pattern of harassment.
 --- !u!1 &136370144
 GameObject:
   m_ObjectHideFlags: 0
@@ -6370,6 +6409,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173854889}
   m_CullTransparentMesh: 1
+--- !u!1 &177305220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177305223}
+  - component: {fileID: 177305222}
+  - component: {fileID: 177305221}
+  m_Layer: 5
+  m_Name: Overlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &177305221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177305220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &177305222
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177305220}
+  m_CullTransparentMesh: 1
+--- !u!224 &177305223
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177305220}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 394458754}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 260, y: 360}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &179478929
 GameObject:
   m_ObjectHideFlags: 0
@@ -7670,6 +7784,7 @@ GameObject:
   - component: {fileID: 221569142}
   - component: {fileID: 221569144}
   - component: {fileID: 221569143}
+  - component: {fileID: 221569145}
   m_Layer: 5
   m_Name: CTD1ProScene17
   m_TagString: Untagged
@@ -7745,6 +7860,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221569141}
   m_CullTransparentMesh: 1
+--- !u!114 &221569145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221569141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionDelay: 8
+  currentPage: {fileID: 133803564}
+  nextPage: {fileID: 973529508}
+  dialogueAnimation: {fileID: 156739232}
+  dialogueForNextPage: Your Honor, as part of the evidence, we are submitting into
+    the record called Exhibit A - screenshots of social media posts made by the defendant,
+    along with text messages sent to the plaintiff. We believe these show a clear
+    pattern of harassment.
 --- !u!1 &224905761
 GameObject:
   m_ObjectHideFlags: 0
@@ -10877,6 +11012,7 @@ GameObject:
   - component: {fileID: 305594790}
   - component: {fileID: 305594792}
   - component: {fileID: 305594791}
+  - component: {fileID: 305594793}
   m_Layer: 5
   m_Name: CTD1ProScene10.2
   m_TagString: Untagged
@@ -10949,6 +11085,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305594789}
   m_CullTransparentMesh: 1
+--- !u!114 &305594793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305594789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionDelay: 12
+  currentPage: {fileID: 305594789}
+  nextPage: {fileID: 114946163}
+  dialogueAnimation: {fileID: 441557908}
+  dialogueForNextPage: OBJECTION, Your Honor! Hearsay, regarding the reactions of
+    others.
 --- !u!1 &307021752
 GameObject:
   m_ObjectHideFlags: 0
@@ -14113,6 +14267,7 @@ GameObject:
   - component: {fileID: 394458753}
   - component: {fileID: 394458752}
   - component: {fileID: 394458751}
+  - component: {fileID: 394458755}
   m_Layer: 5
   m_Name: Evidence1
   m_TagString: Untagged
@@ -14139,7 +14294,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.047169805, g: 0.044722315, b: 0.044722315, a: 0.5882353}
@@ -14213,7 +14368,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 177305223}
   m_Father: {fileID: 1405843138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14221,6 +14377,28 @@ RectTransform:
   m_AnchoredPosition: {x: -160, y: 70}
   m_SizeDelta: {x: 260, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &394458755
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394458750}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23f08523f8c17bd4d983a4ebf0ae8b45, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &396780436
 GameObject:
   m_ObjectHideFlags: 0
@@ -21256,6 +21434,7 @@ GameObject:
   - component: {fileID: 626703323}
   - component: {fileID: 626703325}
   - component: {fileID: 626703324}
+  - component: {fileID: 626703326}
   m_Layer: 5
   m_Name: CTD1ProScene10.1
   m_TagString: Untagged
@@ -21328,6 +21507,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626703322}
   m_CullTransparentMesh: 1
+--- !u!114 &626703326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626703322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionDelay: 12
+  currentPage: {fileID: 626703322}
+  nextPage: {fileID: 114946163}
+  dialogueAnimation: {fileID: 441557908}
+  dialogueForNextPage: OBJECTION, Your Honor! Hearsay, regarding the reactions of
+    others.
 --- !u!1 &628373115
 GameObject:
   m_ObjectHideFlags: 0
@@ -22004,6 +22201,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656910559}
   m_CullTransparentMesh: 1
+--- !u!1 &660311580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660311583}
+  - component: {fileID: 660311582}
+  - component: {fileID: 660311581}
+  m_Layer: 5
+  m_Name: Overlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &660311581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660311580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &660311582
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660311580}
+  m_CullTransparentMesh: 1
+--- !u!224 &660311583
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660311580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076346512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 260, y: 360}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &660328608
 GameObject:
   m_ObjectHideFlags: 0
@@ -27442,7 +27714,7 @@ MonoBehaviour:
   mainPage: {fileID: 1405843137}
   evidence1Page: {fileID: 0}
   evidence2Page: {fileID: 0}
-  evidence3Page: {fileID: 1967078640}
+  evidence3Page: {fileID: 221569141}
 --- !u!1 &841398604
 GameObject:
   m_ObjectHideFlags: 0
@@ -36124,7 +36396,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.5882353}
@@ -36198,7 +36470,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 660311583}
   m_Father: {fileID: 1405843138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -37453,7 +37726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1100811481
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51131,7 +51404,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.5882353}
@@ -51205,7 +51478,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1998635565}
   m_Father: {fileID: 1405843138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -55642,7 +55916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1670935417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59565,7 +59839,6 @@ GameObject:
   - component: {fileID: 1817720375}
   - component: {fileID: 1817720377}
   - component: {fileID: 1817720376}
-  - component: {fileID: 1817720378}
   m_Layer: 5
   m_Name: CTD1ProScene2
   m_TagString: Scene2
@@ -59637,26 +59910,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817720374}
   m_CullTransparentMesh: 1
---- !u!114 &1817720378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817720374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionDelay: 8
-  currentPage: {fileID: 1817720374}
-  nextPage: {fileID: 931702188}
-  dialogueAnimation: {fileID: 994842357}
-  dialogueForNextPage: Thank you, Your Honor. Today, we will show beyond reasonable
-    doubt that the defendant, Ms. Lucy Marie Chua, engaged in a pattern of malicious
-    behavior toward the plaintiff, Ms. Angelica Jane Buenavidez, that falls under
-    the clear definition of cyberbullying.
 --- !u!1 &1820946379
 GameObject:
   m_ObjectHideFlags: 0
@@ -59750,7 +60003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1821098249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59918,7 +60171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1824169528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64597,7 +64850,6 @@ GameObject:
   - component: {fileID: 1979310326}
   - component: {fileID: 1979310328}
   - component: {fileID: 1979310327}
-  - component: {fileID: 1979310329}
   m_Layer: 5
   m_Name: CTD1ProScene5
   m_TagString: Untagged
@@ -64669,24 +64921,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979310325}
   m_CullTransparentMesh: 1
---- !u!114 &1979310329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979310325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionDelay: 5
-  currentPage: {fileID: 1979310325}
-  nextPage: {fileID: 891182476}
-  dialogueAnimation: {fileID: 263619372}
-  dialogueForNextPage: Do you swear to tell the truth, the whole truth, and nothing
-    but the truth?
 --- !u!1 &1982933904
 GameObject:
   m_ObjectHideFlags: 0
@@ -65206,6 +65440,81 @@ MonoBehaviour:
   dialogueForNextPage: It started around six months ago, Your Honor. Lucy began posting
     hurtful things about me on her social media accounts. At first, I tried to ignore
     it, but it kept getting worse.
+--- !u!1 &1998635562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998635565}
+  - component: {fileID: 1998635564}
+  - component: {fileID: 1998635563}
+  m_Layer: 5
+  m_Name: Overlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1998635563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998635562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1998635564
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998635562}
+  m_CullTransparentMesh: 1
+--- !u!224 &1998635565
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998635562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1550006422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 260, y: 360}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2002751609
 GameObject:
   m_ObjectHideFlags: 0
