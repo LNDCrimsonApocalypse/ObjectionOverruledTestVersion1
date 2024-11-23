@@ -855,6 +855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loaderUI: {fileID: 1416137908}
   progressSlider: {fileID: 48573342}
+  displayDuration: 2
 --- !u!1 &857736226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39a489d2f60f6149862c9d1e7f3db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HOME
+  customSceneName: HOME
 --- !u!82 &1393202514
 AudioSource:
   m_ObjectHideFlags: 0

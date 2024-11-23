@@ -3205,7 +3205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39a489d2f60f6149862c9d1e7f3db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Pros_Day1Trial
+  customSceneName: Pros_Day1Trial
 --- !u!1 &1229487482
 GameObject:
   m_ObjectHideFlags: 0
