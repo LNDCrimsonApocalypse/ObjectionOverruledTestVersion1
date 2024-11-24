@@ -14,6 +14,10 @@ public class GameNavigation : MonoBehaviour
     {
         SceneManager.LoadScene("Pros_Day2Trial");
     }
+    public void BtnDayThree()
+    {
+        SceneManager.LoadScene("Pros_Day3Trial");
+    }
     public void BtnInvestigation()
     {
         SceneManager.LoadScene("SpotTheDifferenceScreen");
