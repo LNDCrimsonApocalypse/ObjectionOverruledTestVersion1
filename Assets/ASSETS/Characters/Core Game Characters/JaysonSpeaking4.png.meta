@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JaysonSpeaking4_0: -5758241210447344914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LucyVerdict_0: 9186052721887638131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

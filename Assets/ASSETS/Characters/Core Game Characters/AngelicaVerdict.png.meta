@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AngelicaVerdict_0: -8834615449304564457
+      AngelicaVerdict_1: 2491281940388332782
+      AngelicaVerdict_2: -1672151847382300371
+      AngelicaVerdict_3: -490306305134674930
+      AngelicaVerdict_4: 5761271568518695124
+      AngelicaVerdict_5: -5564674719440397915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LucyEmotional1_0: 6990319379770827673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
