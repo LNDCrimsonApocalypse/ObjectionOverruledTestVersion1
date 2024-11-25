@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 25510922}
   - component: {fileID: 25510921}
   - component: {fileID: 25510920}
+  - component: {fileID: 25510924}
   m_Layer: 5
   m_Name: ButtonPlay
   m_TagString: Untagged
@@ -202,9 +203,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 25510921}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: BtnStart
+      - m_Target: {fileID: 25510924}
+        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
+        m_MethodName: OnBackButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -265,6 +266,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25510918}
   m_CullTransparentMesh: 1
+--- !u!114 &25510924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25510918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a39a489d2f60f6149862c9d1e7f3db8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customSceneName: Cases
 --- !u!1 &44268862
 GameObject:
   m_ObjectHideFlags: 0

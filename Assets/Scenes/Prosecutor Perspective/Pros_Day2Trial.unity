@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 16527355}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &16527355
 MonoBehaviour:
@@ -1185,6 +1186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 60174093}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &60174093
 MonoBehaviour:
@@ -2006,6 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 99879086}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &99879086
 MonoBehaviour:
@@ -3306,6 +3309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 192560164}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &192560164
 MonoBehaviour:
@@ -3554,6 +3558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 211271647}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &211271647
 MonoBehaviour:
@@ -3725,6 +3730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 216178015}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &216178015
 MonoBehaviour:
@@ -4412,6 +4418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 231375601}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &231375601
 MonoBehaviour:
@@ -6731,6 +6738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 314093237}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.02
 --- !u!114 &314093237
 MonoBehaviour:
@@ -7050,6 +7058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 335235971}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &335235971
 MonoBehaviour:
@@ -7145,6 +7154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 340125283}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &340125283
 MonoBehaviour:
@@ -7667,6 +7677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 362386246}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &362386246
 MonoBehaviour:
@@ -7761,6 +7772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 363182375}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.04
 --- !u!114 &363182375
 MonoBehaviour:
@@ -7930,6 +7942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 366966568}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &366966568
 MonoBehaviour:
@@ -8361,7 +8374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &392262789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9182,6 +9195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 430014354}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &430014354
 MonoBehaviour:
@@ -10751,6 +10765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 494767702}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &494767702
 MonoBehaviour:
@@ -11378,6 +11393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 521902858}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &521902858
 MonoBehaviour:
@@ -12496,6 +12512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 563627358}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &563627358
 MonoBehaviour:
@@ -13855,6 +13872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 635972707}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &635972707
 MonoBehaviour:
@@ -14088,6 +14106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 640491575}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &640491575
 MonoBehaviour:
@@ -14752,6 +14771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 667537667}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!1 &671180670
 GameObject:
@@ -14804,6 +14824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 671180673}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &671180673
 MonoBehaviour:
@@ -15577,6 +15598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 714834260}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &714834260
 MonoBehaviour:
@@ -17015,6 +17037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 763901618}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.02
 --- !u!114 &763901618
 MonoBehaviour:
@@ -18052,6 +18075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 791847670}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &791847670
 MonoBehaviour:
@@ -18228,6 +18252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 796934473}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &796934473
 MonoBehaviour:
@@ -19836,6 +19861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 906925328}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &906925328
 MonoBehaviour:
@@ -20463,6 +20489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 932353074}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &932353074
 MonoBehaviour:
@@ -20634,6 +20661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 939050031}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &939050031
 MonoBehaviour:
@@ -21457,6 +21485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 978635551}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &978635551
 MonoBehaviour:
@@ -21629,6 +21658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 986877789}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &986877789
 MonoBehaviour:
@@ -23472,6 +23502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1055909269}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1055909269
 MonoBehaviour:
@@ -23780,6 +23811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1062790059}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1062790059
 MonoBehaviour:
@@ -24238,6 +24270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1086498606}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1086498606
 MonoBehaviour:
@@ -24683,6 +24716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1095624357}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1095624357
 MonoBehaviour:
@@ -25819,6 +25853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1181116190}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1181116190
 MonoBehaviour:
@@ -25985,6 +26020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1194308448}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1194308448
 MonoBehaviour:
@@ -28022,6 +28058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1303955393}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1303955393
 MonoBehaviour:
@@ -28255,6 +28292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1311655276}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1311655276
 MonoBehaviour:
@@ -28731,6 +28769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1326398708}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1326398708
 MonoBehaviour:
@@ -30121,6 +30160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1390926093}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1390926093
 MonoBehaviour:
@@ -30435,6 +30475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1402749719}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1402749719
 MonoBehaviour:
@@ -31572,6 +31613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1465097665}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1465097665
 MonoBehaviour:
@@ -31747,6 +31789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1473085649}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1473085649
 MonoBehaviour:
@@ -34678,6 +34721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1563475218}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1563475218
 MonoBehaviour:
@@ -35249,6 +35293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1586645415}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1586645415
 MonoBehaviour:
@@ -35700,6 +35745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1596315632}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &1596315632
 MonoBehaviour:
@@ -39285,6 +39331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1761231224}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1761231224
 MonoBehaviour:
@@ -39455,6 +39502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1771119919}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1771119919
 MonoBehaviour:
@@ -39550,6 +39598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1775436184}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.02
 --- !u!114 &1775436184
 MonoBehaviour:
@@ -39720,6 +39769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1786759208}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1786759208
 MonoBehaviour:
@@ -41013,6 +41063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1831822570}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.02
 --- !u!114 &1831822570
 MonoBehaviour:
@@ -41183,6 +41234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1836076410}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1836076410
 MonoBehaviour:
@@ -41547,6 +41599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1852095531}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1852095531
 MonoBehaviour:
@@ -42375,6 +42428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1872089739}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1872089739
 MonoBehaviour:
@@ -43482,6 +43536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1914050977}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.03
 --- !u!114 &1914050977
 MonoBehaviour:
@@ -45200,6 +45255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2030448231}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &2030448231
 MonoBehaviour:
@@ -46388,6 +46444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 2069660076}
+  dialogueTextTMP: {fileID: 0}
   typingSpeed: 0.05
 --- !u!114 &2069660076
 MonoBehaviour:
