@@ -1,12 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Add the TextMeshPro namespace
 using System.Collections;
 
 public class DialogueAnimation : MonoBehaviour
 {
-    public Text dialogueText; // Reference to the Text UI component (for regular Unity UI text)
-    public TextMeshProUGUI dialogueTextTMP; // Reference to the TextMeshProUGUI component (for TextMesh Pro text)
+    public Text dialogueText; // Reference to the Text UI component for displaying the dialogue
     public float typingSpeed = 0.1f; // Typing speed (adjustable in the Inspector)
     private string dialogueLine; // Holds the dialogue text to be typed out
 
@@ -14,13 +12,7 @@ public class DialogueAnimation : MonoBehaviour
     public void SetDialogue(string newDialogue)
     {
         dialogueLine = newDialogue;
-
-        // Clear existing text in both components
-        if (dialogueText != null)
-            dialogueText.text = "";
-
-        if (dialogueTextTMP != null)
-            dialogueTextTMP.text = "";
+        dialogueText.text = "";  // Clear any existing text
     }
 
     // Coroutine for the typing effect
@@ -31,36 +23,17 @@ public class DialogueAnimation : MonoBehaviour
 
     private IEnumerator TypeDialogue()
     {
-        // Ensure text is cleared before starting typing
-        if (dialogueText != null)
-            dialogueText.text = "";
-
-        if (dialogueTextTMP != null)
-            dialogueTextTMP.text = "";
-
+        dialogueText.text = "";  // Ensure text is cleared before starting typing
         Debug.Log("TypeDialogue coroutine started.");
         Debug.Log("Typing this dialogue line: " + dialogueLine);
 
-        // Check if we are using TextMeshPro or regular Text
-        if (dialogueText != null)
+        foreach (char letter in dialogueLine)
         {
-            // Regular Text component (UI Text)
-            foreach (char letter in dialogueLine)
-            {
-                dialogueText.text += letter;
-                Debug.Log("Current text displayed: " + dialogueText.text);
-                yield return new WaitForSeconds(typingSpeed);
-            }
-        }
-        else if (dialogueTextTMP != null)
-        {
-            // TextMeshPro component
-            foreach (char letter in dialogueLine)
-            {
-                dialogueTextTMP.text += letter;
-                Debug.Log("Current text displayed: " + dialogueTextTMP.text);
-                yield return new WaitForSeconds(typingSpeed);
-            }
+            dialogueText.text += letter;
+            Debug.Log("Current text displayed: " + dialogueText.text);
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
+
+
 }
