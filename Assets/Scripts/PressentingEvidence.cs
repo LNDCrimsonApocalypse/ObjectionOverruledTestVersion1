@@ -112,11 +112,11 @@ public class EvidenceSelector : MonoBehaviour
         switch (selectedEvidence)
         {
             case 0: // Evidence 1: Load Scene for Evidence 1
-                SceneManager.LoadScene("Scene_Evidence1");
+                SceneManager.LoadScene("GUILTY");
                 break;
 
             case 1: // Evidence 2: Load Scene for Evidence 2
-                SceneManager.LoadScene("Scene_Evidence2");
+                SceneManager.LoadScene("GUILTY");
                 break;
 
             case 2: // Evidence 3: Stay in current scene, show relevant page
