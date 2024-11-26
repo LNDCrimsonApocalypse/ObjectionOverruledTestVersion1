@@ -1939,7 +1939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &367774107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2274,7 +2274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &433363787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4685,7 +4685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NOT GUILTY
+  m_Text: GUILTY
 --- !u!222 &1251506956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5797,7 +5797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34, y: -12}
+  m_AnchoredPosition: {x: 23, y: -35}
   m_SizeDelta: {x: 730.2791, y: 153.7825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067513895
@@ -5820,10 +5820,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b><size=140%><align=center>Grounds for a Not Guilty Verdict</align></size></b>\n\n1.
-    Lack of Evidence from Angelica's Side\n2. No Malicious Intent from Lucy's Side\n3.
-    Plausible explanations for the actions \n\t(ex: Just the misunderstandings\n4.
-    The expert witnesses highlights the inconsitencies based on their testimonies"
+  m_text: '<b><size=140%><align=center>Grounds for a Guilty Verdict</align></size></b>
+
+
+    1.
+    Strong Evidence from Angelica''s Side
+
+    2. Angelica''s Testimony showing Emotional
+    distress or mental health impacts (e.g., anxiety, depression).
+
+    3. The Expert
+    Witnesses strong foundation testimonies about the impacts of CYB in mental health
+    and the whole social media respectively.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8bc19838efebed34f89a172efd9960ce, type: 2}
   m_sharedMaterial: {fileID: 2747844562352788551, guid: 8bc19838efebed34f89a172efd9960ce, type: 2}
@@ -6074,7 +6082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2078835687
 RectTransform:
   m_ObjectHideFlags: 0
