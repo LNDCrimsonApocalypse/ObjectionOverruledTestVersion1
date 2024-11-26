@@ -277,7 +277,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 307249864}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.31016707
+  m_Size: 0.17758454
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -697,7 +697,19 @@ MonoBehaviour:
     focuses on crafting highly detailed, realistic virtual environments. The name
     Crimson Metaverse Operators signifies the group\u2019s bold, pioneering spirit
     (represented by \"Crimson\"), while \"Metaverse Operators\" emphasizes their
-    role as creators and maintainers of expansive digital worlds."
+    role as creators and maintainers of expansive digital worlds.\n\n\n<b><size=150%>Legal 
+    Disclaimer</align></size></b>\r\n\r\nThe game OBJECTION, OVERRULED! is a fictional,
+    interactive experience designed for entertainment and educational purposes only.
+    While it draws inspiration from legal procedures, it does not represent or simulate
+    actual legal processes, advice, or standards.\r\n\r\nThe content, characters,
+    and scenarios within the game are purely fictional and should not be interpreted
+    as real-life events or legal guidance. Any resemblance to actual persons, organizations,
+    or events is entirely coincidental.\r\n\r\nOBJECTION, OVERRULED! is not a substitute
+    for professional legal consultation. If you have specific legal concerns or questions,
+    consult a qualified attorney or legal professional.\r\n\r\nBy playing this game,
+    players acknowledge and accept that the creators, developers, and publishers
+    of OBJECTION, OVERRULED! are not liable for any interpretations, decisions, or
+    actions made by the players based on the game's content.\r\n\r\nAll rights reserved."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8bc19838efebed34f89a172efd9960ce, type: 2}
   m_sharedMaterial: {fileID: 2747844562352788551, guid: 8bc19838efebed34f89a172efd9960ce, type: 2}
