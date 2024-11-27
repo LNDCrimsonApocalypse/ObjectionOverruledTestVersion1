@@ -538,8 +538,8 @@ MonoBehaviour:
   currentPage: {fileID: 20091264}
   nextPage: {fileID: 0}
   dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: "Please be seated. Today, we will hear the Defense\u2019s
-    case. Atty. Miguel, you may proceed."
+  dialogueForNextPage: Please be seated. Today, we will hear the closing statements
+    from both sides. Atty. Timothy, you may proceed.
 --- !u!114 &20091267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1674,7 +1674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &112716464
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5396,7 +5396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &857366800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6488,8 +6488,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Please be seated. Today, we will hear the Defense\u2019s case. Atty. Timothy,
-    you may proceed."
+  m_Text: Please be seated. Today, we will hear the closing statements from both
+    sides. Atty. Timothy, you may proceed.
 --- !u!222 &1031604591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8812,7 +8812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1755785647
 RectTransform:
   m_ObjectHideFlags: 0
