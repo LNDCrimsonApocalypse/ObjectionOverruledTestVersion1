@@ -111,15 +111,17 @@ public class EvidenceSelector : MonoBehaviour
         // Handle transitions based on evidence selected
         switch (selectedEvidence)
         {
-            case 0: // Evidence 1: Load Scene for Evidence 1
-                SceneManager.LoadScene("GUILTY");
+            case 0: // Evidence 1: Show Evidence 1 page
+                mainPage.SetActive(false);
+                evidence1Page.SetActive(true);
                 break;
 
-            case 1: // Evidence 2: Load Scene for Evidence 2
-                SceneManager.LoadScene("GUILTY");
+            case 1: // Evidence 2: Show Evidence 2 page
+                mainPage.SetActive(false);
+                evidence2Page.SetActive(true);
                 break;
 
-            case 2: // Evidence 3: Stay in current scene, show relevant page
+            case 2: // Evidence 3: Show Evidence 3 page
                 mainPage.SetActive(false);
                 evidence3Page.SetActive(true);
                 break;
@@ -129,4 +131,5 @@ public class EvidenceSelector : MonoBehaviour
                 break;
         }
     }
+
 }
