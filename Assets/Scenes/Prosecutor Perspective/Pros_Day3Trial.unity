@@ -3117,7 +3117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &433363787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5979,7 +5979,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -41}
-  m_SizeDelta: {x: 652.505, y: 153.7825}
+  m_SizeDelta: {x: 736.8467, y: 153.7825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943861345
 MonoBehaviour:
@@ -6001,7 +6001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CASE NO.\t\t\t: \tRA10175\nVERDICT\t\t\t:\tGUILTY\nEVIDENCES\t\t\t:\t3\n\nPOINTS
+  m_text: "CASE NO.\t\t\t: \tRA10175\nVERDICT\t\t\t:\tNOT GUILTY\nEVIDENCES\t\t\t:\t3\n\nPOINTS
     EARNED"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8bc19838efebed34f89a172efd9960ce, type: 2}
@@ -6489,7 +6489,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Please be seated. Today, we will hear the closing statements from both
-    sides. Atty. Timothy, you may proceed.
+    counsels. Prosecution, you may now begin.
 --- !u!222 &1031604591
 CanvasRenderer:
   m_ObjectHideFlags: 0
