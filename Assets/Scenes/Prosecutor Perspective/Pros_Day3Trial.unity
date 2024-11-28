@@ -538,8 +538,8 @@ MonoBehaviour:
   currentPage: {fileID: 20091264}
   nextPage: {fileID: 0}
   dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: Please be seated. Today, we will hear the closing statements
-    from both sides. Atty. Timothy, you may proceed.
+  dialogueForNextPage: Please be seated. We will now hear the closing statements
+    from both counsels. Prosecution, you may begin.
 --- !u!114 &20091267
 MonoBehaviour:
   m_ObjectHideFlags: 0
