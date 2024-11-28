@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Prosecutor Perspective/Pros_Day3Trial.unity
     guid: 990e1dbe5bd99ac44b17f2310f48b744
   - enabled: 1
-    path: Assets/Scenes/Defense Attorney Perspective/DefenseCutscenes.unity
+    path: Assets/Scenes/Defense Attorney Perspective/Defense_Day1Tri.unity
     guid: 88081aad2ac862045bf88cd21224b2a2
   - enabled: 1
     path: Assets/Scenes/Prosecutor Perspective/Pros_InvestigationMode 1.unity
