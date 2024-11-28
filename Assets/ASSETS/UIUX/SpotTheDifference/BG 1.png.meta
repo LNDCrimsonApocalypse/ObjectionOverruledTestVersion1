@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 7887beb7cf7660747976ae926125d7e6
+guid: 6204483e29a4901459a6724b042550d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4182555423661321007
-    second: SPOT THE DIFF (1)_0
-  - first:
-      213: 2055131724899013323
-    second: SPOT THE DIFF (1)_1
+      213: 1816614541540220187
+    second: BG 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,35 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPOT THE DIFF (1)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1732
-        width: 6912
-        height: 1724
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d49847900494f5c0800000000000000
-      internalID: -4182555423661321007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPOT THE DIFF (1)_1
+      name: BG 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 6912
-        height: 1724
+        height: 1729
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2dd3d4a6b458c10800000000000000
-      internalID: 2055131724899013323
+      spriteID: b1d505afc49e53910800000000000000
+      internalID: 1816614541540220187
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SPOT THE DIFF (1)_0: -4182555423661321007
-      SPOT THE DIFF (1)_1: 2055131724899013323
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
