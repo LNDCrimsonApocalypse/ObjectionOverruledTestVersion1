@@ -8366,7 +8366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -710, y: -340}
+  m_AnchoredPosition: {x: 735, y: -327.5}
   m_SizeDelta: {x: 520, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276809786
@@ -8402,7 +8402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ATTY.  MONTEVERDE
+  m_Text: ANGELICA
 --- !u!222 &276809787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31319,10 +31319,10 @@ RectTransform:
   - {fileID: 1982755079}
   - {fileID: 1522291927}
   - {fileID: 1124537936}
-  - {fileID: 549817647}
   - {fileID: 1221754434}
   - {fileID: 702227967}
   - {fileID: 1774064844}
+  - {fileID: 549817647}
   - {fileID: 1246003042}
   - {fileID: 1127003111}
   - {fileID: 65584356}
@@ -39699,7 +39699,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1127003111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44216,7 +44216,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1246003042
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53979,7 +53979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -710, y: -340}
+  m_AnchoredPosition: {x: 735, y: -325}
   m_SizeDelta: {x: 450, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455217954

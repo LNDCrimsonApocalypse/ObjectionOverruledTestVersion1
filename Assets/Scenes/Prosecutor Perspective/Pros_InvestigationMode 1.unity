@@ -1064,8 +1064,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: 39}
-  m_SizeDelta: {x: 1300, y: 191.1902}
+  m_AnchoredPosition: {x: 16.3851, y: 39}
+  m_SizeDelta: {x: 1675.0391, y: 191.1902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392490069
 MonoBehaviour:
@@ -3768,7 +3768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1368922161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3785,8 +3785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: 39}
-  m_SizeDelta: {x: 1300, y: 191.1902}
+  m_AnchoredPosition: {x: 7.2823, y: 39}
+  m_SizeDelta: {x: 1627.7039, y: 191.1902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368922162
 MonoBehaviour:
@@ -3821,7 +3821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You  select the correct Evidence
+  m_Text: You select the correct Evidence
 --- !u!222 &1368922163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4601,7 +4601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1627028541
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4782,7 +4782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1718755665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4799,8 +4799,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: 39}
-  m_SizeDelta: {x: 1300, y: 191.1902}
+  m_AnchoredPosition: {x: 12.7438965, y: 39}
+  m_SizeDelta: {x: 1638.6274, y: 191.1902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718755666
 MonoBehaviour:
@@ -4835,7 +4835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You  select the correct Evidence
+  m_Text: You select the correct Evidence
 --- !u!222 &1718755667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4936,7 +4936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1755922364
 RectTransform:
   m_ObjectHideFlags: 0
