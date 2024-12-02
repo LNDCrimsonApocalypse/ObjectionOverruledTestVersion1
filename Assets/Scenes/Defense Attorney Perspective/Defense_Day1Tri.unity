@@ -573,6 +573,7 @@ GameObject:
   - component: {fileID: 20547803}
   - component: {fileID: 20547802}
   - component: {fileID: 20547801}
+  - component: {fileID: 20547804}
   m_Layer: 5
   m_Name: EvidenceBtn
   m_TagString: Untagged
@@ -693,6 +694,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20547799}
   m_CullTransparentMesh: 1
+--- !u!114 &20547804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20547799}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 527669590}
+  nextPage: {fileID: 65584355}
+  dialogueAnimation: {fileID: 0}
+  dialogueForNextPage: 
 --- !u!1 &31978869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1170,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &65584356
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10173,7 +10190,6 @@ GameObject:
   - component: {fileID: 527669591}
   - component: {fileID: 527669595}
   - component: {fileID: 527669594}
-  - component: {fileID: 527669593}
   - component: {fileID: 527669592}
   m_Layer: 5
   m_Name: DefenseScene13.2
@@ -10306,24 +10322,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &527669593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527669590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitionDelay: 5
-  currentPage: {fileID: 527669590}
-  nextPage: {fileID: 0}
-  dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: "Sustained. Please limit your answer to the defendant\u2019s
-    direct actions, Ms. Buenavidez."
 --- !u!114 &527669594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13255,7 +13253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &698924668
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14010,7 +14008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &712779946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45129,7 +45127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049311095}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
   m_Name: 
