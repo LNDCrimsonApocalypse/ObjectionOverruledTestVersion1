@@ -3482,7 +3482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100.93982, y: -513.09735}
+  m_AnchoredPosition: {x: -67, y: -528}
   m_SizeDelta: {x: 1617.3313, y: 256.1947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99538875
@@ -3522,7 +3522,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: effbab96fa995c5498b4921e2ddcf786, type: 3}
-    m_FontSize: 31
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3536,7 +3536,7 @@ MonoBehaviour:
   m_Text: "They were mean, humiliating posts. Lucy would call me names, say I was
     worthless, and sometimes she\u2019d even tag me so her friends could see and
     laugh. It wasn\u2019t just once\u2014it happened over and over again. She even
-    made memes mocking my appearance"
+    made memes mocking my appearance."
 --- !u!222 &99538877
 CanvasRenderer:
   m_ObjectHideFlags: 0
