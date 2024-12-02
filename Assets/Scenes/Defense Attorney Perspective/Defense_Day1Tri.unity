@@ -7382,7 +7382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPage: {fileID: 65584355}
-  nextPage: {fileID: 527669590}
+  nextPage: {fileID: 418460855}
   dialogueAnimation: {fileID: 0}
   dialogueForNextPage: 
 --- !u!114 &418460858
@@ -7487,7 +7487,7 @@ MonoBehaviour:
   mainPage: {fileID: 65584355}
   evidence1Page: {fileID: 773397425}
   evidence2Page: {fileID: 773397425}
-  evidence3Page: {fileID: 527669590}
+  evidence3Page: {fileID: 730530650}
 --- !u!1 &422192417
 GameObject:
   m_ObjectHideFlags: 0
