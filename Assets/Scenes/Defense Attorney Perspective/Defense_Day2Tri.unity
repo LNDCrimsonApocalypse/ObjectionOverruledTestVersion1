@@ -17611,7 +17611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPage: {fileID: 2022953539}
-  nextPage: {fileID: 1176124464}
+  nextPage: {fileID: 1580787927}
   dialogueAnimation: {fileID: 0}
   dialogueForNextPage: 
 --- !u!114 &729984187
@@ -25830,7 +25830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1068945755
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34157,7 +34157,7 @@ GameObject:
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1376218494
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46116,6 +46116,7 @@ GameObject:
   - component: {fileID: 1829436512}
   - component: {fileID: 1829436511}
   - component: {fileID: 1829436510}
+  - component: {fileID: 1829436513}
   m_Layer: 5
   m_Name: NextBTN
   m_TagString: Untagged
@@ -46224,6 +46225,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829436508}
   m_CullTransparentMesh: 1
+--- !u!114 &1829436513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829436508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c87a731d889fc41931fa87803524ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPage: {fileID: 2050105593}
+  nextPage: {fileID: 702253633}
+  dialogueAnimation: {fileID: 1402421994}
+  dialogueForNextPage: Do you swear to tell the truth, the whole truth, and nothing
+    but the truth?
 --- !u!1 &1831220395
 GameObject:
   m_ObjectHideFlags: 0
