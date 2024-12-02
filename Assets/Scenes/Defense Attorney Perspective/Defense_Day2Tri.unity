@@ -25897,8 +25897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPage: {fileID: 1068945754}
-  nextPage: {fileID: 0}
-  dialogueAnimation: {fileID: 0}
+  nextPage: {fileID: 2062602466}
+  dialogueAnimation: {fileID: 216971348}
   dialogueForNextPage: All Rise. Crimson City Regional Trial Court Branch 418 is
     now in session. Honorable Judge Lily Anne Tanchengco presiding, silence is hereby
     enjoined.
