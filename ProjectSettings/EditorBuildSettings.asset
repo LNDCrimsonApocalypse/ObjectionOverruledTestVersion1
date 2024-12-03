@@ -37,10 +37,7 @@ EditorBuildSettings:
     guid: a4a45000a525f6846a71abe9be8ecaa8
   - enabled: 1
     path: Assets/Scenes/GUILTY.unity
-    guid: 0c3c522bce9c5c94298d3a558b4f37ca
-  - enabled: 0
-    path: Assets/Scenes/NOTGUILTY.unity
-    guid: 9c05d088fd315e4479a9a542f13d6d99
+    guid: 4515a22d66941424f92c7c9e77c912ed
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 14270d74466ec85429efa6a82968cf95
