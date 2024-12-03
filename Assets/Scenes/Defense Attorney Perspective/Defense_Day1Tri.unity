@@ -550,7 +550,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18816414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
   m_Name: 
@@ -5932,7 +5932,7 @@ MonoBehaviour:
   nextPage: {fileID: 18816414}
   dialogueAnimation: {fileID: 454338075}
   dialogueForNextPage: Please be seated. We will now begin with the presentation
-    of the Prosecution's case. Atty. Timothy, you may proceed.
+    of the Prosecution's case. Atty. Miguel, you may proceed.
 --- !u!114 &324538629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8896,7 +8896,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Please be seated. We will now begin with the presentation of the Prosecution's
-    case. Atty. Timothy, you may proceed.
+    case. Atty. Miguel, you may proceed.
 --- !u!222 &454338077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18845,7 +18845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5417497128641482356, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5786958192106889435, guid: 7c704a6ec43d21f40bb8c8add00ec002, type: 3}
       propertyPath: m_IsActive
@@ -36302,7 +36302,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 4897803e9cbbe1e478578dbe79944223, type: 3}
     m_FontSize: 39
     m_FontStyle: 0
     m_BestFit: 0
@@ -42310,7 +42310,7 @@ MonoBehaviour:
   nextPage: {fileID: 18816414}
   dialogueAnimation: {fileID: 454338075}
   dialogueForNextPage: Please be seated. We will now begin with the presentation
-    of the Prosecution's case. Atty. Timothy, you may proceed.
+    of the Prosecution's case. Atty. Miguel, you may proceed.
 --- !u!114 &1920103692
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -42698,17 +42698,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884164157}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transitionDelay: 4
   currentPage: {fileID: 1884164157}
-  nextPage: {fileID: 0}
-  dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: I swear by Almighty God that I will tell the truth, the whole
-    truth, and nothing but the truth.
+  nextPage: {fileID: 783759576}
+  dialogueAnimation: {fileID: 1761231223}
+  dialogueForNextPage: No, absolutely not. I never wanted to hurt Angelica. If I
+    knew it was affecting her like this, I would have stopped much sooner.
 --- !u!114 &1884164160
 MonoBehaviour:
   m_ObjectHideFlags: 0
