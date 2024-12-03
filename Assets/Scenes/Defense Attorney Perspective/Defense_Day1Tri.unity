@@ -550,7 +550,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18816414}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8611be15b5c374e42a27eb4e4de1492e, type: 3}
   m_Name: 
@@ -558,7 +558,7 @@ MonoBehaviour:
   transitionDelay: 7
   currentPage: {fileID: 18816414}
   nextPage: {fileID: 1330808362}
-  dialogueAnimation: {fileID: 454338075}
+  dialogueAnimation: {fileID: 999284586}
   dialogueForNextPage: Please be seated. We will now begin with the presentation
     of the Prosecution's case. Atty. Timothy, you may proceed.
 --- !u!1 &20547799
@@ -5930,7 +5930,7 @@ MonoBehaviour:
   transitionDelay: 7
   currentPage: {fileID: 324538625}
   nextPage: {fileID: 18816414}
-  dialogueAnimation: {fileID: 454338075}
+  dialogueAnimation: {fileID: 1433926982}
   dialogueForNextPage: Please be seated. We will now begin with the presentation
     of the Prosecution's case. Atty. Miguel, you may proceed.
 --- !u!114 &324538629
@@ -14199,7 +14199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &712779946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14649,7 +14649,7 @@ GameObject:
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &730530651
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19013,7 +19013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &939686089
 RectTransform:
   m_ObjectHideFlags: 0
