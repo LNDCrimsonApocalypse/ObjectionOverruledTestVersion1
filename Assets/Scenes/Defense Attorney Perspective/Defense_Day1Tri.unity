@@ -1170,7 +1170,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &65584356
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5930,7 +5930,7 @@ MonoBehaviour:
   transitionDelay: 7
   currentPage: {fileID: 324538625}
   nextPage: {fileID: 18816414}
-  dialogueAnimation: {fileID: 1433926982}
+  dialogueAnimation: {fileID: 454338075}
   dialogueForNextPage: Please be seated. We will now begin with the presentation
     of the Prosecution's case. Atty. Miguel, you may proceed.
 --- !u!114 &324538629
@@ -14199,7 +14199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &712779946
 RectTransform:
   m_ObjectHideFlags: 0
