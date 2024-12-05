@@ -3349,8 +3349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionDelay: 6
   currentPage: {fileID: 123839258}
-  nextPage: {fileID: 0}
-  dialogueAnimation: {fileID: 0}
+  nextPage: {fileID: 1313428723}
+  dialogueAnimation: {fileID: 1888015250}
   dialogueForNextPage: 'Thank you, Ms. Chua. No further questions. '
 --- !u!114 &123839261
 MonoBehaviour:
@@ -25669,7 +25669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1068945755
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34036,10 +34036,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionDelay: 4
   currentPage: {fileID: 1376218493}
-  nextPage: {fileID: 0}
-  dialogueAnimation: {fileID: 0}
-  dialogueForNextPage: I swear by Almighty God that I will tell the truth, the whole
-    truth, and nothing but the truth.
+  nextPage: {fileID: 123839258}
+  dialogueAnimation: {fileID: 1215539461}
+  dialogueForNextPage: No, absolutely not. I never wanted to hurt Angelica. If I
+    knew it was affecting her like this, I would have stopped much sooner.
 --- !u!114 &1376218496
 MonoBehaviour:
   m_ObjectHideFlags: 0
