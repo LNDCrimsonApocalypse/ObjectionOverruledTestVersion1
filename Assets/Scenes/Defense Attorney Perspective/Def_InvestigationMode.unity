@@ -3159,6 +3159,7 @@ GameObject:
   - component: {fileID: 1225657757}
   - component: {fileID: 1225657756}
   - component: {fileID: 1225657755}
+  - component: {fileID: 1225657758}
   m_Layer: 5
   m_Name: Difference 2
   m_TagString: Untagged
@@ -3292,6 +3293,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1225657758}
+        m_TargetAssemblyTypeName: ScoringSystem, Assembly-CSharp
+        m_MethodName: AddToScore
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1225657757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3308,6 +3321,19 @@ MonoBehaviour:
   nextPage: {fileID: 617935835}
   dialogueAnimation: {fileID: 0}
   dialogueForNextPage: 
+--- !u!114 &1225657758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225657751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3844b3f11b6a86345acd980595afa6de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
 --- !u!1 &1229487482
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,6 +3602,7 @@ GameObject:
   - component: {fileID: 1342699154}
   - component: {fileID: 1342699153}
   - component: {fileID: 1342699156}
+  - component: {fileID: 1342699157}
   m_Layer: 5
   m_Name: Difference3
   m_TagString: Untagged
@@ -3645,7 +3672,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1342699154}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1342699157}
+        m_TargetAssemblyTypeName: ScoringSystem, Assembly-CSharp
+        m_MethodName: AddToScore
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1342699154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3700,6 +3739,19 @@ MonoBehaviour:
   nextPage: {fileID: 1229487482}
   dialogueAnimation: {fileID: 0}
   dialogueForNextPage: 
+--- !u!114 &1342699157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342699151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3844b3f11b6a86345acd980595afa6de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
 --- !u!1 &1368922160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5573,6 +5625,7 @@ GameObject:
   - component: {fileID: 2076769215}
   - component: {fileID: 2076769218}
   - component: {fileID: 2076769219}
+  - component: {fileID: 2076769220}
   m_Layer: 5
   m_Name: Difference1
   m_TagString: Untagged
@@ -5655,6 +5708,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2076769220}
+        m_TargetAssemblyTypeName: ScoringSystem, Assembly-CSharp
+        m_MethodName: AddToScore
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2076769216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5722,6 +5787,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetImage: {fileID: 1274974437}
+--- !u!114 &2076769220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076769213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3844b3f11b6a86345acd980595afa6de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
 --- !u!1 &2085458277
 GameObject:
   m_ObjectHideFlags: 0
