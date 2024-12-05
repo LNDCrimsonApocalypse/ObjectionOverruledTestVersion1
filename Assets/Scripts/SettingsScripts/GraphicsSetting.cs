@@ -16,6 +16,8 @@ public class GraphicsSetting : MonoBehaviour
     public GameObject HighOnIcon;
     public GameObject HighOffIcon;
 
+    private const string QualityPrefKey = "GraphicsQuality";
+
     private void Awake()
     {
         // Add listeners to buttons
@@ -23,30 +25,52 @@ public class GraphicsSetting : MonoBehaviour
         MediumBtn.onClick.AddListener(SetMediumQuality);
         HighBtn.onClick.AddListener(SetHighQuality);
 
-        // Initialize the state
-        Debug.Log("Initializing to Low Quality by default");
-        SetLowQuality(); // Default to Low
+        // Load and apply the saved quality setting
+        int savedQualityLevel = PlayerPrefs.GetInt(QualityPrefKey, 0); // Default to Low if not set
+        Debug.Log($"Loading saved quality level: {savedQualityLevel}");
+        ApplyQualitySetting(savedQualityLevel);
     }
 
     public void SetLowQuality()
     {
         Debug.Log("Low quality selected");
-        QualitySettings.SetQualityLevel(0);
-        UpdateIcons(LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon, HighOnIcon, HighOffIcon);
+        ApplyQualitySetting(0);
     }
 
     public void SetMediumQuality()
     {
         Debug.Log("Medium quality selected");
-        QualitySettings.SetQualityLevel(1);
-        UpdateIcons(MediumOnIcon, MediumOffIcon, LowOnIcon, LowOffIcon, HighOnIcon, HighOffIcon);
+        ApplyQualitySetting(1);
     }
 
     public void SetHighQuality()
     {
         Debug.Log("High quality selected");
-        QualitySettings.SetQualityLevel(2);
-        UpdateIcons(HighOnIcon, HighOffIcon, LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon);
+        ApplyQualitySetting(2);
+    }
+
+    private void ApplyQualitySetting(int qualityLevel)
+    {
+        // Set the quality level
+        QualitySettings.SetQualityLevel(qualityLevel);
+
+        // Save the quality level to PlayerPrefs
+        PlayerPrefs.SetInt(QualityPrefKey, qualityLevel);
+        PlayerPrefs.Save();
+
+        // Update the icons based on the selected quality level
+        switch (qualityLevel)
+        {
+            case 0:
+                UpdateIcons(LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon, HighOnIcon, HighOffIcon);
+                break;
+            case 1:
+                UpdateIcons(MediumOnIcon, MediumOffIcon, LowOnIcon, LowOffIcon, HighOnIcon, HighOffIcon);
+                break;
+            case 2:
+                UpdateIcons(HighOnIcon, HighOffIcon, LowOnIcon, LowOffIcon, MediumOnIcon, MediumOffIcon);
+                break;
+        }
     }
 
     private void UpdateIcons(GameObject activeOnIcon, GameObject activeOffIcon, GameObject otherOnIcon1, GameObject otherOffIcon1, GameObject otherOnIcon2, GameObject otherOffIcon2)
