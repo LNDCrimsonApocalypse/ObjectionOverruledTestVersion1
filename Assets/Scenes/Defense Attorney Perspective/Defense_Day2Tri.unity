@@ -1610,11 +1610,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1581909862}
-  m_Father: {fileID: 101451314}
+  m_Father: {fileID: 230163918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -212}
+  m_AnchoredPosition: {x: 83, y: -72}
   m_SizeDelta: {x: 855, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56343439
@@ -2629,7 +2629,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1021731083}
-  - {fileID: 56343438}
   m_Father: {fileID: 230163918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6762,6 +6761,7 @@ RectTransform:
   - {fileID: 369509685}
   - {fileID: 150165691}
   - {fileID: 101451314}
+  - {fileID: 56343438}
   m_Father: {fileID: 1136488847}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -49071,7 +49071,6 @@ GameObject:
   - component: {fileID: 1984074442}
   - component: {fileID: 1984074441}
   - component: {fileID: 1984074440}
-  - component: {fileID: 1984074439}
   m_Layer: 5
   m_Name: NextBTN
   m_TagString: Untagged
@@ -49098,18 +49097,6 @@ RectTransform:
   m_AnchoredPosition: {x: 852, y: -480}
   m_SizeDelta: {x: 132.7977, y: 68.2072}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1984074439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984074437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6335fc76889db714ca9718e70839e604, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1984074440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49122,7 +49109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39a489d2f60f6149862c9d1e7f3db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customSceneName: 
+  customSceneName: Defense_DayeTri
 --- !u!114 &1984074441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49167,9 +49154,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1984074439}
-        m_TargetAssemblyTypeName: GameNavigation, Assembly-CSharp
-        m_MethodName: BtnDayThree
+      - m_Target: {fileID: 1984074440}
+        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
+        m_MethodName: OnBackButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
