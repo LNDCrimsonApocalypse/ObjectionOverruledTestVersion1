@@ -52510,10 +52510,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPage: {fileID: 1313428723}
-  nextPage: {fileID: 123839258}
-  dialogueAnimation: {fileID: 1215539461}
-  dialogueForNextPage: No, absolutely not. I never wanted to hurt Angelica. If I
-    knew it was affecting her like this, I would have stopped much sooner.
+  nextPage: {fileID: 53499968}
+  dialogueAnimation: {fileID: 974361651}
+  dialogueForNextPage: Prosecution, you may cross-examine the witness.
 --- !u!114 &2089818550
 MonoBehaviour:
   m_ObjectHideFlags: 0
