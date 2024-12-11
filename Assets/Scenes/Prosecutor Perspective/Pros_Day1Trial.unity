@@ -909,7 +909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -190}
+  m_AnchoredPosition: {x: 0, y: -165}
   m_SizeDelta: {x: 400, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20444166
@@ -30425,7 +30425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -299}
+  m_AnchoredPosition: {x: 0, y: -280}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806170072
@@ -58133,8 +58133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000019073, y: 75}
-  m_SizeDelta: {x: 791.4667, y: 153.7825}
+  m_AnchoredPosition: {x: 37, y: 78.25}
+  m_SizeDelta: {x: 825.4491, y: 616.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576070761
 MonoBehaviour:
@@ -58172,7 +58172,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: '<b><size=200%><align=center>MISTRIAL</align></size></b>
-
 
     You have
     presented the wrong evidence'
@@ -58240,7 +58239,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.8371582, w: 0}
+  m_margin: {x: 0, y: 0, z: 22.462402, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -71129,7 +71128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952707999
 RectTransform:
   m_ObjectHideFlags: 0
